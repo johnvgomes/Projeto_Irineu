@@ -1,0 +1,65 @@
+(------------Projeto Irineu-------------------)
+
+
+COMANDOS----
+
+
+git init (quando vai criar)
+
+vim. config (para acessar as configuracoes)
+
+
+
+
+Comandos para atualizar projeto---------------
+
+
+
+(para clonar o projeto)
+
+...
+
+
+
+git clone https://github.com/johnvgomes/Projeto_Irineu.git
+
+
+...
+
+(adicionar alteraçoes ao projeto)
+
+...
+
+
+git add . 
+
+
+
+...
+
+(commit e mensagem)
+
+...
+
+
+git commit -m "mensagem que vai escrever"
+
+
+...
+
+(push para enviar para o repositorio)
+
+
+...
+
+
+git push 
+
+...
+
+(STATUS)
+
+...
+
+
+git status
