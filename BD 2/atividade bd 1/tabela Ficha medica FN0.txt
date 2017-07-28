@@ -1,0 +1,33 @@
+create databse fichaMedica;
+
+create table paciente(
+
+num_paciente int primary key,
+nome varchar(100),
+dataNasc date,
+sexo varchar(2),
+convenio varchar(100),
+estCivil varchar(100),
+telefone int,
+endereco varchar (100)
+
+);
+
+create table consultas(
+
+numeroConsulta int primary key,
+data date,
+medicoCRM int unique not null,
+diagnostico varchar(100)
+
+
+);
+
+
+create table exames(
+
+numeroConsulta int primary key,
+exame varchar(100),
+data date
+
+);

@@ -1,0 +1,241 @@
+create database cadastro_funcionario;
+
+-- criando a tabela estado
+
+
+create table estado(
+	
+	cd_estado int primary key,
+	nomeEstado varchar(100),
+	siglaEstado varchar(2),
+
+);
+
+
+
+-- insercao de dados na tabela estado
+
+
+insert into estado values(1,'Acre','AC');
+
+insert into estado values(2,'Alagoas','AL');
+
+insert into estado values(3,'Amapá','AP');
+
+insert into estado values(4,'Amazonas','AM');
+
+insert into estado values(5,'Bahia','BA');
+
+insert into estado values(6,'Ceará','CE');
+
+insert into estado values(7,'Distrito Federal','DF');
+
+insert into estado values(8,'Espírito Santo','ES');
+
+insert into estado values(9,'Goiás','GO');
+
+insert into estado values(10,'Maranhão','MA');
+
+insert into estado values(11,'Mato Grosso','MT');
+
+insert into estado values(12,'Mato Grosso do Sul','MS');
+
+insert into estado values(13,'Minas Gerais','MG');
+
+insert into estado values(14,'Pará','PA');
+
+insert into estado values(15,'Paraíba','PB');
+
+insert into estado values(16,'Paraná','PR');
+
+insert into estado values(17,'Pernambuco','PE');
+
+insert into estado values(18,'Piauí','PI');
+
+insert into estado values(19,'Rio de Janeiro','RJ');
+
+insert into estado values(20,'Rio Grande do Norte','RN');
+
+insert into estado values(21,'Rio Grande do Sul','RS');
+
+insert into estado values(22,'Rondônia','RO');
+
+insert into estado values(23,'Roraima','RR');
+
+insert into estado values(24,'Santa Catarina','SC');
+
+insert into estado values(25,'São Paulo','SP');
+
+insert into estado values(26,'Sergipe','SE');
+
+insert into estado values(27,'Tocantins','TO');
+
+
+
+-- criando a tabela cidade
+
+create table cidade(
+	
+	cd_cidade int primary key,
+	nomeCidade varchar(100),
+	cdEstado int,
+
+
+	foreign key (cdEstado) references estado(cd_estado)
+);
+
+
+
+	insert into cidade values(30,'videira',23);
+	
+	insert into cidade values(31,'cabreuva',24);
+	
+
+
+
+-- criando a tabela endereco
+
+create table endereco(
+
+	cd_endereco int primary key,
+	cep int,
+	rua varchar(100),
+	numero int,
+	bairro varchar(100),
+	cdCidade,
+
+
+	foreign key (cdCidade) references cidade(cd_cidade)
+	
+);
+	
+
+
+-- insercao de dados na tabela endereco
+
+
+insert into endereco values(151,13315000,'jundiai',229,'nova cabreuva',31);
+
+insert into endereco values(152,89560000,'ernesto fantin',50,'sesi',30);
+
+
+-- criando a tabela estado civil
+
+
+create table estadoCivil(
+	cd_estCivil int primary key,
+	estado_civil varchar(100)
+);
+
+
+
+-- insercao de dados na tabela estado civil
+
+
+insert into estadoCivil values(201,'Solteiro');
+
+insert into estadoCivil values(202,'Casado');
+
+insert into estadoCivil values(203,'Viuvo');
+
+insert into estadoCivil values(204,'Divorciado');
+
+
+
+create table funcionario(
+	
+	matricula int primary key not null,
+	nome varchar(100),
+	dataNasc date,
+	nacionalidade varchar(100),
+	sexo varchar(100),
+	RG int,
+	CPF int unique,
+	dataAdmissao date,
+	cdEndereco int,
+	cdEstCivil int,
+	
+
+	foreign key (cdEndereco) references endereco(cd_endereco),
+	foreign key (cdEstCivil) references estadoCivil(cd_estCivil)
+);
+
+
+-- insercao de dados na tabela funcionario
+	
+
+	insert into funcionario values(102,'John','1998-01-13','brasileiro','M',412532427,34341229831,'2013-01-26',151,201);
+
+	insert into funcionario values(101,'Alan','1997-02-14','brasileiro','M',443532528,34348729111,'2010-12-13',152,201);
+	
+
+
+-- criando a tabela telefone funcionario
+
+create table telefoneFuncionario(
+	
+	cd_telefone int primary key,
+	telefone int,
+	cdFuncionario int,
+	foreign key (cdFuncionario) references funcionario(cd_funcionario)
+);
+
+
+-- insercao de dados na tabela funcionario
+	
+
+	insert into telefoneFuncionario values(701,987654321,101);
+
+	insert into telefoneFuncionario values(702,986754331,102);
+	
+
+
+-- criando a tabela cargo
+	
+create table cargo(
+	cd_cargo int primary key,
+	nomeCargo varchar(100)
+
+);
+
+-- criando a tabela cargo funcionario
+
+
+create table cargo_funcionario(
+
+	cd_cargoFuncionario int primary key,
+	dataInicio date,
+	dataFim date,
+	cdFuncionario int,
+	cdCargo int,
+	foreign key (cdFuncionario) references funcionario(cd_funcionario)
+);
+
+
+
+-- insercao de dados na tabela cargo funcionario
+	
+
+	insert into cargo_funcionario values(801,'Lixeiro','2010-12-13','2011-12-13',101);
+
+	insert into cargo_funcionario values(802,'Motorista do caminhão de Lixo','2013-01-26','2015-03-13',102);
+	
+
+create table dependentes(
+
+	cd_dependente int primary key,
+	nomeDependente varchar(100),
+	dataNasc date,
+	cdFuncionario int,
+	foreign key (cdFuncionario) references funcionario(cd_funcionario)
+);
+
+	insert into dependentes values(901,'xanaina','2008-12-13',101);
+
+	insert into dependentes values(902,'cleovanilson','2009-01-26',102);
+	
+
+
+
+
+

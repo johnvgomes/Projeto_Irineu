@@ -1,0 +1,26 @@
+create database cadProjetos;
+
+create table projetos(
+	
+	cd_projeto int primary key,
+	nome varchar(100),
+	data_inicio date,
+	data_fim date,
+	cd_departamento,
+	cd_gerente
+
+);
+
+create table Departamento(
+	cd_departamento int primary key,	
+	nome varchar(100),
+
+);
+
+create table empregados(
+
+	cd_empregado int primary key,
+	nome varcgar(100),
+	num_horasTrab double
+
+);

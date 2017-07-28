@@ -1,0 +1,226 @@
+create database fichaMedica;
+
+
+-- criando a tabela estado
+
+
+create table estado(
+	
+	cd_estado int primary key,
+	nomeEstado varchar(100),
+	siglaEstado varchar(2),
+
+);
+
+
+
+-- insercao de dados na tabela estado
+
+
+insert into estado values(1,'Acre','AC');
+
+insert into estado values(2,'Alagoas','AL');
+
+insert into estado values(3,'Amapá','AP');
+
+insert into estado values(4,'Amazonas','AM');
+
+insert into estado values(5,'Bahia','BA');
+
+insert into estado values(6,'Ceará','CE');
+
+insert into estado values(7,'Distrito Federal','DF');
+
+insert into estado values(8,'Espírito Santo','ES');
+
+insert into estado values(9,'Goiás','GO');
+
+insert into estado values(10,'Maranhão','MA');
+
+insert into estado values(11,'Mato Grosso','MT');
+
+insert into estado values(12,'Mato Grosso do Sul','MS');
+
+insert into estado values(13,'Minas Gerais','MG');
+
+insert into estado values(14,'Pará','PA');
+
+insert into estado values(15,'Paraíba','PB');
+
+insert into estado values(16,'Paraná','PR');
+
+insert into estado values(17,'Pernambuco','PE');
+
+insert into estado values(18,'Piauí','PI');
+
+insert into estado values(19,'Rio de Janeiro','RJ');
+
+insert into estado values(20,'Rio Grande do Norte','RN');
+
+insert into estado values(21,'Rio Grande do Sul','RS');
+
+insert into estado values(21,'Rondônia','RO');
+
+insert into estado values(22,'Roraima','RR');
+
+insert into estado values(23,'Santa Catarina','SC');
+
+insert into estado values(24,'São Paulo','SP');
+
+insert into estado values(25,'Sergipe','SE');
+
+insert into estado values(26,'Tocantins','TO');
+
+
+
+-- criando a tabela cidade
+
+create table cidade(
+	
+	cd_cidade int primary key,
+	nomeCidade varchar(100),
+	cdEstado int,
+
+
+	foreign key (cdEstado) references estado(cd_estado)
+);
+
+
+
+	insert into cidade values(30,'videira',23);
+	
+	insert into cidade values(31,'cabreuva',24);
+	
+
+
+
+-- criando a tabela endereco
+
+create table endereco(
+
+	cd_endereco int primary key,
+	cep int,
+	rua varchar(100),
+	numero int,
+	bairro varchar(100),
+	cdCidade,
+
+
+	foreign key (cdCidade) references cidade(cd_cidade)
+	
+);
+	
+
+
+-- insercao de dados na tabela endereco
+
+
+	insert into endereco values(151,13315000,'jundiai',229,'nova cabreuva',31);
+
+	insert into endereco values(152,89560000,'ernesto fantin',50,'sesi',30);
+
+
+-- criando a tabela estado civil
+
+
+create table estadoCivil(
+	cd_estCivil int primary key,
+	estado_civil varchar(100)
+);
+
+
+
+-- insercao de dados na tabela estado civil
+
+
+	insert into estadoCivil values(201,'Solteiro');
+
+	insert into estadoCivil values(202,'Casado');
+
+	insert into estadoCivil values(203,'Viuvo');
+
+	insert into estadoCivil values(204,'Divorciado');
+
+
+create table medico(
+
+	medico_CRM int primary key,
+	nome varchar(100),
+	dataNasc date,
+	sexo varchar(100),
+	RG int,
+	cdEndereco int,
+	cdEstCivil int,
+	
+
+	foreign key (cdEndereco) references endereco(cd_endereco),
+	foreign key (cdEstCivil) references estadoCivil(cd_estCivil)
+
+);
+
+
+create table paciente(
+
+	num_paciente int primary key,
+	nome varchar(100),
+	dataNasc date,
+	sexo varchar(100),
+	convenio varchar(100),
+	RG int,
+	cdEndereco int,
+	cdEstCivil int,
+	
+
+	foreign key (cdEndereco) references endereco(cd_endereco),
+	foreign key (cdEstCivil) references estadoCivil(cd_estCivil)
+
+);
+
+
+create table telefonePaciente(
+	
+	cd_telefone int primary key,
+	telefone int,
+	cdpaciente int,
+
+	foreign key (cdpaciente) references paciente(num_paciente)
+);
+
+create table telefoneMedico(
+	
+	cd_telefone int primary key,
+	telefone int,
+	medicoCRM int unique not null,
+	
+	foreign key (medicoCRM) references medico(medico_CRM),
+
+);
+
+create table consultas(
+
+	numero_consulta int primary key,
+	data date,
+	diagnostico varchar(100)
+	medicoCRM int unique not null,
+	cdpaciente int,
+	
+
+	foreign key (medicoCRM) references medico(medico_CRM),
+	foreign key (cdpaciente) references paciente(num_paciente)
+
+
+
+);
+
+
+create table exames(
+
+	cd_exame int primary key,
+	exame varchar(100),
+	data date,
+	numero_consulta int,
+
+	foreign key (numeroConsulta) references consultas(numero_consulta)
+
+
+);
