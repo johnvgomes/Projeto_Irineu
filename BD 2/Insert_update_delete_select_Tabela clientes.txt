@@ -1,0 +1,472 @@
+-- podemos inserir valores no banco de dados,
+-- para isso nós especificamos o campo e em seguida os valores
+
+
+INSERT INTO clientes (
+
+
+
+uf,
+email,
+telefones,
+endereco,
+cidade,
+nome,
+cep,
+usuario,
+senha,
+observacoes,
+cpf,
+data_nascimento
+
+)
+
+VALUES (
+
+'SC',
+'a@a.com',
+'3566-0145',
+'Rua X',
+'Videira',
+'Tiago',
+89560000,
+'eu',
+md5('fASFA'),
+'Oi',
+010101,
+'2016-10-10'
+
+);
+
+
+
+INSERT INTO clientes (
+ 
+
+uf,
+email,
+telefones,
+endereco,
+cidade,
+nome,
+cep,
+usuario,
+senha,
+observacoes,
+cpf,
+data_nascimento
+
+)
+
+VALUES (
+
+'SC',
+'b@a.com',
+'3566-0145',
+'Rua X', 
+'Videira',
+'José', 
+89560000, 
+'eu',
+md5('fsafsa'),
+'Oi',
+010101,
+'2016-10-10'
+
+
+);
+
+
+
+INSERT INTO clientes (
+
+
+uf,
+email,
+telefones,
+endereco,
+cidade,
+nome,
+cep,
+usuario,
+senha,
+observacoes,
+cpf,
+data_nascimento
+
+
+)
+
+
+VALUES (
+
+'SC',
+'b@a.com',
+'3566-0145',
+'Rua X',
+'Curitiba',
+'Pedro', 
+89560000, 
+'eu',
+md5('fsafsa'),
+'Oi',
+010101,
+'2016-10-10'
+
+);
+
+
+
+INSERT INTO clientes (
+
+
+uf, 
+email,
+telefones,
+endereco,
+cidade,
+nome,
+cep,
+usuario,
+senha,
+observacoes,
+cpf,
+data_nascimento
+
+)
+
+VALUES (
+
+'SC',
+'b@a.com',
+'3566-0145',
+'Rua X',
+'Videira',
+'José',
+89560000,
+'eu',
+md5('fsafsa'),
+'Oi',010101,'2016-10-10'
+);
+
+
+
+
+-- para selecionar registro no banco de dados
+
+
+
+SELECT * from clientes;
+
+
+
+
+-- também podemos selecionar clientes usando condições
+
+
+SELECT * FROM clientes WHERE email = 'a@a.com';
+
+
+
+-- também podemos selecionar clientes ordenando
+SELECT * FROM clientes ORDER BY nome;
+
+
+
+
+-- ou ordenando de forma decrescente
+SELECT * FROM clientes ORDER BY nome DESC;
+
+
+
+-- podemos também alterar informações dos clientes
+
+
+
+UPDATE clientes SET uf = 'PR', cidade= 'Curitiba' WHERE id = 1;
+
+
+
+-- Podemos excluir também
+DELETE FROM clientes WHERE uf = 'SC';
+
+
+
+-- podemos contar quantas linhas tem uma tabela
+SELECT count(*) FROM clientes;
+
+
+
+-- podemos selecionar também valores únicos, queremos saber quais estados que vendemos
+
+
+
+SELECT DISTINCT uf FROM clientes;
+
+
+
+
+-- podemos usar o LIKE para valores aproximados
+SELECT * FROM clientes WHERE nome LIKE '%a%';
+
+
+SELECT * FROM clientes WHERE nome LIKE '%o';
+SELECT * FROM clientes WHERE nome LIKE 'J%';
+
+
+
+
+-- podemos inserir valores em nossas outra tabelas também
+
+
+
+
+INSERT INTO produtos (
+
+
+
+descricao,
+categoria,
+valor_unitario
+
+
+) 
+
+
+VALUES (
+
+
+'Pedal de metal',
+'pedal',
+5.55  
+
+  
+);
+
+
+
+
+INSERT INTO produtos (
+
+
+descricao,
+categoria,
+valor_unitario
+
+
+) 
+
+VALUES (
+
+
+'Pedal de plástico',
+'pedal',
+4.55    
+
+);
+
+
+
+INSERT INTO produtos (
+
+
+descricao,
+categoria, 
+valor_unitario
+
+
+)
+
+VALUES (
+
+'Correia marca fulera', 
+'correia', 
+10.00  
+
+);
+
+
+
+
+INSERT INTO produtos (
+descricao,
+categoria,
+valor_unitario
+
+
+) 
+
+VALUES (
+	
+
+'Câmbio Shimano',
+'câmbio',
+10.99    
+
+
+);
+
+
+
+-- agora queremos selecionar todos os produtos com valor menor de 5 reais
+
+
+SELECT * FROM produtos WHERE valor_unitario < 5;
+
+
+
+
+
+-- ou maior que 5
+
+
+
+SELECT * FROM produtos WHERE valor_unitario > 5;
+
+
+
+-- ou igual a 10.99
+SELECT * FROM produtos WHERE valor_unitario = 10.99;
+
+
+
+-- e se eu quiser aumentar o preço de todos os produtos com valor menor que 10 reais em 10 porcento?
+
+
+
+UPDATE produtos SET valor_unitario = valor_unitario * 1.10 WHERE valor_unitario < 10;
+
+
+
+-- vamos conferir
+SELECT * FROM produtos;
+
+
+
+-- vamos fazer vendas?
+
+
+INSERT INTO vendas (
+
+
+cliente_id,
+produto_id,
+data,
+quantidade,
+valor_total
+
+)
+
+VALUES (
+
+
+50,
+1,
+'2017-02-03',
+55,
+55.5
+
+
+);
+
+
+
+-- DEU UM ERRO, PORQUE?
+
+
+-- leia a mensagem do LOG
+
+
+-- o problema era tentar inserir um ID de cliente que não existia
+
+
+INSERT INTO vendas (
+	
+
+cliente_id,
+
+produto_id,
+
+data,
+
+quantidade,
+
+valor_total
+
+
+) 
+
+VALUES (
+
+1,
+1,
+'2017-02-03',
+55,
+55.5
+
+);
+
+
+
+-- vamos inserir mais uma venda
+
+
+INSERT INTO vendas (
+
+
+cliente_id,
+produto_id,
+data,
+quantidade,
+valor_total
+
+
+)
+
+VALUES (
+
+
+1,
+2,
+'2017-02-03',
+55,
+30 
+
+);
+
+
+
+-- e se eu quiser a soma das vendas?
+
+
+SELECT sum(valor_total) FROM vendas;
+
+
+
+-- e se eu quiser a média?
+
+
+SELECT avg(valor_total) FROM vendas;
+
+
+
+
+-- juntando informações das tabelas
+
+
+SELECT * FROM vendas AS v
+	
+INNER JOIN clientes AS c ON (c.id = v.cliente_id)
+   
+INNER JOIN produtos AS p ON (p.id = v.produto_id);
+   
+
+
+-- mas agora queremos selecionar somente nome, e-mail, produto e valor total
+
+
+SELECT c.nome,c.email,p.descricao,v.valor_total FROM vendas AS v
+
+INNER JOIN clientes AS c ON (c.id = v.cliente_id)
+    
+INNER JOIN produtos AS p ON (p.id = v.produto_id);
