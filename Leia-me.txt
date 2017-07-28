@@ -1,9 +1,6 @@
 (------------Projeto Irineu-------------------)
 
 
-Atualizacoes----
-
-
-[X] criacao do primeiro arquivo 
+Atualizacoes---- 
 
 [X] fazendo segundo commit
