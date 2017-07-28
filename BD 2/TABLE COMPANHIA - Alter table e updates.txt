@@ -1,0 +1,136 @@
+
+
+-- CRIAR BANCO COMPANHIA
+
+
+create database companhia5;
+
+use companhia5;
+
+
+-- CRIAR TABELA EMPREGADO
+
+
+
+create table empregado(
+	cd_empregado int primary key,
+	nm_empregado varchar(40)not null,
+	nu_pis tinyint unique,
+	sexo char(1),
+	salario int,
+	rua varchar(40),
+	numero int,
+	complemento varchar (20),
+	cep int,
+	dt_nascimento varchar(10),
+	check (nu_pis >0),
+	check(sexo in ('M','F'))
+);
+
+
+
+-- INSERINDO VALORES NA TABELA EMPREGADO
+
+insert into empregado values (1,'Lindosvaldo Franco',21,'M',2000,'Jundiaí',234,'casa2',13315-000,13/02/1987);
+insert into empregado values (4,'Vini Chavoso da Silva',12,'M',1500,'Pitangueiras',10,'perto da caixa d\'agua',13321-210,13/05/1988);
+
+
+
+-- CRIAR TABELA DEPARTAMENTO
+
+
+create table Departamento(
+	cd_departamento int primary key,
+	nm_departamento varchar(40)not null,
+	cd_empregado int,
+	dt_inicio_supervisor tinyint,
+	foreign key (cd_empregado) references empregado (Cd_empregado),
+	check (dt_inicio between 1 and 31)
+
+);
+
+
+-- INSERINDO VALORES NA TABELA DEPARTAMENTO
+
+insert into Departamento values (132,'copa',1,7);
+insert into Departamento values (325,'escritorio',4,8);
+
+
+
+
+-- CRIAR TABELA DETALHE DEPARTAMENTO (nao tem espaco pois o nome da tabela precisa ser junto)
+
+create table detalhe_departamento(
+	ds_localizacao int primary key,
+	cd_departamento int,
+	n_detalhe tinyint,
+	foreign key (cd_departamento) references Departamento (cd_departamento),
+check (n_detalhe between 1 and 8)
+
+);
+
+
+
+-- INSERINDO VALORES NA TABELA DETALHE DEPARTAMENTO
+
+insert into detalhe_departamento values (344,132,6);
+insert into detalhe_departamento values (234,325,7);
+
+
+-- CRIAR TABELA PROJETO
+
+create table Projeto(
+	cd_projeto int primary key,
+	nm_projeto varchar(40)not null,
+	horas_trabalhadas int,
+	cd_departamento int,
+	cd_empregado int,
+	ds_localizacao varchar(30),
+	foreign key (cd_departamento) references Departamento (cd_departamento),
+	foreign key (cd_empregado) references empregado (cd_empregado),
+	foreign key (ds_localizacao) references detalhe_departamento (ds_localizacao)
+
+);
+
+
+-- INSERINDO VALORES NA TABELA PROJETO
+
+insert into Projeto values (132,'Mega projet',6,132,1,344);
+insert into Projeto values (325,'aull met',7,325,4,234);
+
+create table dependente(
+	cd_dependente int primary key,
+	nome varchar(40) not null,
+	dt_nascimento varchar(10),
+	relacao varchar(15),
+	cd_empregado int,
+	foreign key (cd_empregado) references empregado (cd_empregado),
+	check(relacao in('mae','pai','filho','irmao','outro'))
+
+);
+
+insert into dependente values (645645,'Josesvaldo Creusio',12/09/1986,'filho',1);
+insert into dependente values (468468,'Marcio Creusio',11/07/1966,'pai',4);
+
+
+
+
+-- para selecionar registro no banco de dados
+
+
+
+SELECT * from empregado;
+
+-- dando um update 
+
+UPDATE dependente SET cd_dependente = 645678 * 1.10 WHERE cd_dependente = 645645;
+
+
+
+-- apagar tabela
+
+drop table dependente;
+
+
+
+

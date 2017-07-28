@@ -1,0 +1,40 @@
+create database cadastro_funcionario;
+
+
+FN0;
+
+create table funcionario(
+	
+	matricula int primary key not null,
+	nome varchar(100),
+	dataNasc date,
+	nacionalidade varchar(100),
+	sexo varchar(100),
+	estCivil varchar(100),
+	RG int,
+	CPF int,
+	endereco varchar(100),
+	telefone int,
+	dataAdmissao date
+
+);
+
+
+create table cargo_funcionario(
+
+	nome_funcionario varchar(100),
+	cargo varchar(100),
+	dataInicio date,
+	dataFim date,
+	foreign key (nome_funcionario) references funcionario(nome);
+
+);
+
+create table dependentes(
+
+	nome_funcionario varchar(100),
+	nomeDependente varchar(100),
+	dataNasc date,
+	foreign key (nome_funcionario) references funcionario(nome)
+);
+

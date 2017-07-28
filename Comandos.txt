@@ -8,13 +8,6 @@ git init (quando vai criar)
 
 vim. config (para acessar as configuracoes)
 
-
-
-
-Comandos para atualizar projeto---------------
-
-
-
 (para clonar o projeto)
 
 ...
@@ -26,7 +19,25 @@ git clone https://github.com/johnvgomes/Projeto_Irineu.git
 
 ...
 
-(adicionar alteraçoes ao projeto)
+___________________________________________________________________________________
+
+
+Comandos para atualizar projeto---------------
+
+___________________________________________________________________________________
+
+1passo - atualizar pasta do projeto
+
+(Para atualizar)
+
+...
+
+git pull
+
+...
+
+
+(adicionar alteracoes ao projeto)
 
 ...
 

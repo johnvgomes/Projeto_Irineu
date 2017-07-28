@@ -1,0 +1,21 @@
+create database ordemDeCompra;
+
+create table compra(
+
+	cd_ordemCompra int primary key,
+	dataEmissao date,
+	cdFornecedor,
+	nome fornecedor,
+	enderecoFornecedor
+
+);
+
+create table materiais(
+
+	cd_material int primary key,
+	descricao varchar(100),
+	qtd int,
+	valorUnit double,
+	valorTotal double
+
+);

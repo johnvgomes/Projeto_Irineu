@@ -1,0 +1,217 @@
+-- create database empresa_aerea;
+
+
+-- criando FN3
+
+-- criando tabela empresa Aerea
+
+
+create table empresaAerea(
+	
+	CNPJ int primary key,
+	nome varchar(100),	
+	nome_Fantasia varchar(100)
+
+);
+
+-- criando tabela aviao
+
+create table aviao(
+
+	cd_aviao int primary key,
+	marca varchar(100),
+	nomeApelido varchar(100),
+	ativo varchar(100),
+	modelo varchar(100),
+	cor varchar(100)
+);
+
+-- criando tabela estado
+
+
+create table estado(
+	
+	cd_estado int primary key,
+	nomeEstado varchar(100),
+	siglaEstado varchar(2)
+
+);
+
+
+-- criando a tabela cidade
+
+create table cidade(
+	
+	cd_cidade int primary key,
+	nome_cidade varchar(100),
+	cdEstado int,
+
+
+	foreign key (cdEstado) references estado(cd_estado)
+);
+
+
+
+
+-- criando a tabela endereco
+
+create table endereco(
+
+	cd_endereco int primary key,
+	cep int,
+	rua varchar(100),
+	numero int,
+	bairro varchar(100),
+	cdCidade int,
+
+
+	foreign key (cdCidade) references cidade(cd_cidade)
+	
+);
+	
+
+
+-- criando a tabela estado civil
+
+
+create table estadoCivil(
+	cd_estado_civil int primary key,
+	estadoCivil varchar(100)
+);
+
+
+create table pessoas(
+	
+	codigo int primary key not null,
+	nome varchar(100),
+	data_nasc date,
+	nacionalidade varchar(100),
+	sexo varchar(100),
+	RG int,
+	CPF int unique,
+	cdEndereco int,
+	cdEstCivil int,	
+
+	foreign key (cdEndereco) references endereco(cd_endereco),
+	foreign key (cdEstCivil) references estadoCivil(cd_estado_civil)
+);
+
+-- criando a tabela pessoa_cliente
+
+
+create table pessoa_cliente(
+	cd_cliente int primary key,
+	tipo varchar(100),
+	cdPessoa int,
+
+
+	foreign key (cdPessoa) references pessoas(codigo)
+);
+
+
+
+create table equipe_funcionario(
+
+	cd_equipe int primary key,
+	setor int,
+	nome varchar(100),
+	cdAviao int,
+
+	foreign key (cdAviao) references aviao(cd_aviao)
+);
+
+
+
+-- criando a tabela pessoa_funcionario
+
+
+create table pessoa_funcionario(
+
+	cd_funcionario int primary key,
+	data_admissao date,
+	cdPessoa int,
+	CNPJ_empresaAerea int,
+	cdEquipeFunc int,
+
+	foreign key (CNPJ_empresaAerea) references empresaAerea(CNPJ),
+	foreign key (cdPessoa) references pessoas(codigo),
+	foreign key (cdEquipeFunc) references equipe_funcionario(cd_equipe)
+);
+-- criando a tabela telefone
+
+create table telefone(
+	
+	cd_telefone int primary key,
+	telefone int,
+	cdPessoa int,
+
+	foreign key (cdPessoa) references pessoas(codigo)
+);
+
+
+-- criando a tabela cargo
+	
+create table cargo(
+	cd_cargo int primary key,
+	nomeCargo varchar(100)
+
+);
+
+-- criando a tabela cargo funcionario
+
+
+create table cargo_funcionario(
+
+	data_inicio date,
+	data_fim date,
+	cdFuncionario int,
+	cdCargo int,
+
+	primary key (cdFuncionario,cdCargo),
+
+	foreign key (cdFuncionario) references pessoa_funcionario(cd_funcionario)
+);
+
+
+
+
+
+create table voo(
+
+	cd_voo int primary key,
+	origem_voo varchar(100),
+	destino_voo varchar(100),
+	hora time,
+	cdEquipeFunc int,
+
+	foreign key (cdEquipeFunc) references equipe_funcionario(cd_equipe)
+);
+
+
+
+create table passagem(
+	
+	cd_passagem int primary key,
+	metodo_pagamento varchar(100),
+	cdVoo int,
+	cdCliente int,
+
+	foreign key (cdVoo) references voo(cd_voo),
+	foreign key (cdCliente) references pessoa_cliente(cd_cliente)
+	
+);
+
+
+create table checkin(
+	
+	cd_passagem int,
+	poltrona int,
+	
+	primary key (cd_passagem,poltrona),
+
+	foreign key (cd_passagem) references passagem(cd_passagem)
+	
+);
+
+
+
