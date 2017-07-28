@@ -1,6 +1,0 @@
-create table pessoa(
-nome varchar(50) not null,
-sobrenome varchar(100) not null,
-rg varchar
-idpessoa primary key
-);

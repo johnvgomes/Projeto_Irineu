@@ -1,0 +1,23 @@
+-- create database processo seletivo;
+
+
+-- criando FN3
+
+-- criando tabela pessoa
+
+
+create table pessoa(
+	
+	cdPessoa auto_increment int ,
+	CPF int unique NOT NULL,
+	nome varchar(100),	
+	nome_Fantasia varchar(100)
+	data_nasc date NOT NULL,
+	sexo varchar(100) NOT NULL,
+	salario real NOT NULL,
+	cd_endereco int NOT NULL,
+	
+	primary key (cdPessoa),
+
+	foreign key (cd_endereco) references endereco(cdEndereco)
+);
