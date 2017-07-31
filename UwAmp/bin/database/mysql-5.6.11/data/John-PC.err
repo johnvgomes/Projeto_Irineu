@@ -1,0 +1,456 @@
+2017-03-08 10:15:43 4812 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-08 10:15:44 4812 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-08 10:15:44 4812 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-08 10:15:44 4812 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-08 10:15:44 4812 [Note] InnoDB: Not using CPU crc32 instructions
+2017-03-08 10:15:44 4812 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-08 10:15:44 4812 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-08 10:15:44 4812 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-08 10:15:44 4812 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214494 in the ib_logfiles!
+2017-03-08 10:15:44 4812 [Note] InnoDB: Database was not shutdown normally!
+2017-03-08 10:15:44 4812 [Note] InnoDB: Starting crash recovery.
+2017-03-08 10:15:44 4812 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-08 10:15:46 4812 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-08 10:15:46 4812 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-03-08 10:15:47 4812 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-08 10:15:47 4812 [Note] InnoDB: Waiting for purge to start
+2017-03-08 10:15:47 4812 [Note] InnoDB: 5.6.11 started; log sequence number 6214494
+2017-03-08 10:15:47 4812 [Note] Recovering after a crash using mysql-bin
+2017-03-08 10:15:48 4812 [Note] Starting crash recovery...
+2017-03-08 10:15:48 4812 [Note] Crash recovery finished.
+2017-03-08 10:15:50 4812 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-03-08 10:15:50 4812 [Note] IPv6 is available.
+2017-03-08 10:15:50 4812 [Note]   - '::' resolves to '::';
+2017-03-08 10:15:50 4812 [Note] Server socket created on IP: '::'.
+2017-03-08 10:15:55 4812 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-08 10:15:55 4812 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-03-08 10:15:55 4812 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-08 10:15:55 4812 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-08 10:15:55 4812 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-03-08 10:15:56 4812 [Note] Event Scheduler: Loaded 0 events
+2017-03-08 10:15:56 4812 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-03-08 10:51:19 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-08 10:53:42 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-08 10:58:16 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-08 10:59:24 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-08 11:01:48 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-08 11:03:01 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-08 11:05:14 4812 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-13 07:57:56 1544 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-13 07:57:57 1544 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-13 07:57:57 1544 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-13 07:57:57 1544 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-13 07:57:57 1544 [Note] InnoDB: Not using CPU crc32 instructions
+2017-03-13 07:57:57 1544 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-13 07:57:57 1544 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-13 07:57:57 1544 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-13 07:57:57 1544 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214504 in the ib_logfiles!
+2017-03-13 07:57:57 1544 [Note] InnoDB: Database was not shutdown normally!
+2017-03-13 07:57:57 1544 [Note] InnoDB: Starting crash recovery.
+2017-03-13 07:57:57 1544 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-13 07:57:59 1544 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-13 07:57:59 1544 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-03-13 07:58:00 1544 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-13 07:58:00 1544 [Note] InnoDB: Waiting for purge to start
+2017-03-13 07:58:00 1544 [Note] InnoDB: 5.6.11 started; log sequence number 6214504
+2017-03-13 07:58:00 1544 [Note] Recovering after a crash using mysql-bin
+2017-03-13 07:58:00 1544 [Note] Starting crash recovery...
+2017-03-13 07:58:00 1544 [Note] Crash recovery finished.
+2017-03-13 07:58:02 1544 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-03-13 07:58:02 1544 [Note] IPv6 is available.
+2017-03-13 07:58:02 1544 [Note]   - '::' resolves to '::';
+2017-03-13 07:58:02 1544 [Note] Server socket created on IP: '::'.
+2017-03-13 07:58:03 1544 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-13 07:58:03 1544 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-03-13 07:58:03 1544 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-13 07:58:03 1544 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-13 07:58:03 1544 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-03-13 07:58:04 1544 [Note] Event Scheduler: Loaded 0 events
+2017-03-13 07:58:04 1544 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-03-17 08:03:19 2128 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-17 08:03:19 2128 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-17 08:03:19 2128 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-17 08:03:19 2128 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-17 08:03:19 2128 [Note] InnoDB: Not using CPU crc32 instructions
+2017-03-17 08:03:19 2128 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-17 08:03:19 2128 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-17 08:03:19 2128 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-17 08:03:20 2128 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214514 in the ib_logfiles!
+2017-03-17 08:03:20 2128 [Note] InnoDB: Database was not shutdown normally!
+2017-03-17 08:03:20 2128 [Note] InnoDB: Starting crash recovery.
+2017-03-17 08:03:20 2128 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-17 08:03:22 2128 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-17 08:03:22 2128 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-03-17 08:03:23 2128 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-17 08:03:23 2128 [Note] InnoDB: Waiting for purge to start
+2017-03-17 08:03:23 2128 [Note] InnoDB: 5.6.11 started; log sequence number 6214514
+2017-03-17 08:03:23 2128 [Note] Recovering after a crash using mysql-bin
+2017-03-17 08:03:23 2128 [Note] Starting crash recovery...
+2017-03-17 08:03:23 2128 [Note] Crash recovery finished.
+2017-03-17 08:03:27 2128 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-03-17 08:03:28 2128 [Note] IPv6 is available.
+2017-03-17 08:03:28 2128 [Note]   - '::' resolves to '::';
+2017-03-17 08:03:28 2128 [Note] Server socket created on IP: '::'.
+2017-03-17 08:03:29 2128 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-17 08:03:29 2128 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-03-17 08:03:29 2128 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-17 08:03:29 2128 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-17 08:03:29 2128 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-03-17 08:03:30 2128 [Note] Event Scheduler: Loaded 0 events
+2017-03-17 08:03:30 2128 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-03-17 09:18:10 2128 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-17 09:19:26 2128 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-17 09:20:12 2128 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-17 10:17:55 2128 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-17 10:19:04 2128 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-03-23 21:09:26 4372 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-23 21:09:26 4372 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-23 21:09:26 4372 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-03-23 21:09:26 4372 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-03-23 21:09:26 4372 [Note] InnoDB: Not using CPU crc32 instructions
+2017-03-23 21:09:26 4372 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-23 21:09:26 4372 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-23 21:09:26 4372 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-23 21:09:26 4372 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214524 in the ib_logfiles!
+2017-03-23 21:09:26 4372 [Note] InnoDB: Database was not shutdown normally!
+2017-03-23 21:09:26 4372 [Note] InnoDB: Starting crash recovery.
+2017-03-23 21:09:26 4372 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-23 21:09:27 4372 [Note] InnoDB: Restoring possible half-written data pages 
+2017-03-23 21:09:27 4372 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-03-23 21:09:28 4372 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-23 21:09:28 4372 [Note] InnoDB: Waiting for purge to start
+2017-03-23 21:09:28 4372 [Note] InnoDB: 5.6.11 started; log sequence number 6214524
+2017-03-23 21:09:28 4372 [Note] Recovering after a crash using mysql-bin
+2017-03-23 21:09:28 4372 [Note] Starting crash recovery...
+2017-03-23 21:09:28 4372 [Note] Crash recovery finished.
+2017-03-23 21:09:28 4372 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-03-23 21:09:28 4372 [Note] IPv6 is available.
+2017-03-23 21:09:28 4372 [Note]   - '::' resolves to '::';
+2017-03-23 21:09:28 4372 [Note] Server socket created on IP: '::'.
+2017-03-23 21:09:29 4372 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-23 21:09:29 4372 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-03-23 21:09:29 4372 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-23 21:09:29 4372 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-23 21:09:29 4372 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-03-23 21:09:29 4372 [Note] Event Scheduler: Loaded 0 events
+2017-03-23 21:09:29 4372 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-03-23 21:15:42 e24 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-23 21:15:42 e24 InnoDB: Error: Fetch of persistent statistics requested for table "johnvini"."departamento" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-23 21:16:07 4372 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-14 21:00:17 628 [Note] Plugin 'FEDERATED' is disabled.
+2017-05-14 21:00:18 628 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-05-14 21:00:18 628 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-05-14 21:00:18 628 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-05-14 21:00:18 628 [Note] InnoDB: Not using CPU crc32 instructions
+2017-05-14 21:00:18 628 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-05-14 21:00:18 628 [Note] InnoDB: Completed initialization of buffer pool
+2017-05-14 21:00:18 628 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-05-14 21:00:18 628 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214534 in the ib_logfiles!
+2017-05-14 21:00:18 628 [Note] InnoDB: Database was not shutdown normally!
+2017-05-14 21:00:18 628 [Note] InnoDB: Starting crash recovery.
+2017-05-14 21:00:18 628 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-05-14 21:00:20 628 [Note] InnoDB: Restoring possible half-written data pages 
+2017-05-14 21:00:20 628 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-05-14 21:00:22 628 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-05-14 21:00:22 628 [Note] InnoDB: Waiting for purge to start
+2017-05-14 21:00:22 628 [Note] InnoDB: 5.6.11 started; log sequence number 6214534
+2017-05-14 21:00:22 628 [Note] Recovering after a crash using mysql-bin
+2017-05-14 21:00:22 628 [Note] Starting crash recovery...
+2017-05-14 21:00:22 628 [Note] Crash recovery finished.
+2017-05-14 21:00:26 628 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-05-14 21:00:26 628 [Note] IPv6 is available.
+2017-05-14 21:00:26 628 [Note]   - '::' resolves to '::';
+2017-05-14 21:00:26 628 [Note] Server socket created on IP: '::'.
+2017-05-14 21:00:29 628 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-14 21:00:29 628 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-14 21:00:29 628 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-14 21:00:29 628 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-14 21:00:29 628 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-14 21:00:35 628 [Note] Event Scheduler: Loaded 0 events
+2017-05-14 21:00:35 628 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-14 23:19:20 1508 [Note] Plugin 'FEDERATED' is disabled.
+2017-05-14 23:19:20 1508 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-05-14 23:19:20 1508 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-05-14 23:19:20 1508 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-05-14 23:19:20 1508 [Note] InnoDB: Not using CPU crc32 instructions
+2017-05-14 23:19:20 1508 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-05-14 23:19:20 1508 [Note] InnoDB: Completed initialization of buffer pool
+2017-05-14 23:19:20 1508 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-05-14 23:19:20 1508 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214544 in the ib_logfiles!
+2017-05-14 23:19:20 1508 [Note] InnoDB: Database was not shutdown normally!
+2017-05-14 23:19:20 1508 [Note] InnoDB: Starting crash recovery.
+2017-05-14 23:19:20 1508 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-05-14 23:19:21 1508 [Note] InnoDB: Restoring possible half-written data pages 
+2017-05-14 23:19:21 1508 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-05-14 23:19:25 1508 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-05-14 23:19:25 1508 [Note] InnoDB: Waiting for purge to start
+2017-05-14 23:19:25 1508 [Note] InnoDB: 5.6.11 started; log sequence number 6214544
+2017-05-14 23:19:25 1508 [Note] Recovering after a crash using mysql-bin
+2017-05-14 23:19:25 1508 [Note] Starting crash recovery...
+2017-05-14 23:19:25 1508 [Note] Crash recovery finished.
+2017-05-14 23:19:27 1508 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-05-14 23:19:27 1508 [Note] IPv6 is available.
+2017-05-14 23:19:27 1508 [Note]   - '::' resolves to '::';
+2017-05-14 23:19:27 1508 [Note] Server socket created on IP: '::'.
+2017-05-14 23:19:28 1508 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-14 23:19:28 1508 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-14 23:19:28 1508 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-14 23:19:28 1508 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-14 23:19:28 1508 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-14 23:19:29 1508 [Note] Event Scheduler: Loaded 0 events
+2017-05-14 23:19:29 1508 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-15 08:00:33 2016 [Note] Plugin 'FEDERATED' is disabled.
+2017-05-15 08:00:33 2016 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-05-15 08:00:33 2016 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-05-15 08:00:33 2016 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-05-15 08:00:33 2016 [Note] InnoDB: Not using CPU crc32 instructions
+2017-05-15 08:00:33 2016 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-05-15 08:00:33 2016 [Note] InnoDB: Completed initialization of buffer pool
+2017-05-15 08:00:33 2016 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-05-15 08:00:33 2016 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214554 in the ib_logfiles!
+2017-05-15 08:00:33 2016 [Note] InnoDB: Database was not shutdown normally!
+2017-05-15 08:00:33 2016 [Note] InnoDB: Starting crash recovery.
+2017-05-15 08:00:33 2016 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-05-15 08:00:36 2016 [Note] InnoDB: Restoring possible half-written data pages 
+2017-05-15 08:00:36 2016 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-05-15 08:00:38 2016 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-05-15 08:00:38 2016 [Note] InnoDB: Waiting for purge to start
+2017-05-15 08:00:38 2016 [Note] InnoDB: 5.6.11 started; log sequence number 6214554
+2017-05-15 08:00:38 2016 [Note] Recovering after a crash using mysql-bin
+2017-05-15 08:00:38 2016 [Note] Starting crash recovery...
+2017-05-15 08:00:38 2016 [Note] Crash recovery finished.
+2017-05-15 08:00:43 2016 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-05-15 08:00:43 2016 [Note] IPv6 is available.
+2017-05-15 08:00:43 2016 [Note]   - '::' resolves to '::';
+2017-05-15 08:00:43 2016 [Note] Server socket created on IP: '::'.
+2017-05-15 08:00:43 2016 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-15 08:00:43 2016 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-15 08:00:43 2016 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-15 08:00:43 2016 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-15 08:00:43 2016 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-15 08:00:45 2016 [Note] Event Scheduler: Loaded 0 events
+2017-05-15 08:00:45 2016 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-23 20:26:33 1572 [Note] Plugin 'FEDERATED' is disabled.
+2017-05-23 20:26:33 1572 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-05-23 20:26:33 1572 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-05-23 20:26:33 1572 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-05-23 20:26:33 1572 [Note] InnoDB: Not using CPU crc32 instructions
+2017-05-23 20:26:33 1572 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-05-23 20:26:34 1572 [Note] InnoDB: Completed initialization of buffer pool
+2017-05-23 20:26:34 1572 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-05-23 20:26:34 1572 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214564 in the ib_logfiles!
+2017-05-23 20:26:34 1572 [Note] InnoDB: Database was not shutdown normally!
+2017-05-23 20:26:34 1572 [Note] InnoDB: Starting crash recovery.
+2017-05-23 20:26:34 1572 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-05-23 20:26:36 1572 [Note] InnoDB: Restoring possible half-written data pages 
+2017-05-23 20:26:36 1572 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-05-23 20:26:38 1572 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-05-23 20:26:38 1572 [Note] InnoDB: Waiting for purge to start
+2017-05-23 20:26:38 1572 [Note] InnoDB: 5.6.11 started; log sequence number 6214564
+2017-05-23 20:26:38 1572 [Note] Recovering after a crash using mysql-bin
+2017-05-23 20:26:38 1572 [Note] Starting crash recovery...
+2017-05-23 20:26:38 1572 [Note] Crash recovery finished.
+2017-05-23 20:26:48 1572 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-05-23 20:26:48 1572 [Note] IPv6 is available.
+2017-05-23 20:26:48 1572 [Note]   - '::' resolves to '::';
+2017-05-23 20:26:48 1572 [Note] Server socket created on IP: '::'.
+2017-05-23 20:26:54 1572 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-23 20:26:54 1572 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-23 20:26:54 1572 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-23 20:26:54 1572 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-23 20:26:54 1572 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-23 20:26:57 1572 [Note] Event Scheduler: Loaded 0 events
+2017-05-23 20:26:57 1572 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-23 21:08:02 1572 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-23 21:08:23 1572 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-23 21:08:38 1572 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-23 21:09:14 1572 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-24 10:10:48 4032 [Note] Plugin 'FEDERATED' is disabled.
+2017-05-24 10:10:48 4032 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-05-24 10:10:48 4032 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-05-24 10:10:48 4032 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-05-24 10:10:48 4032 [Note] InnoDB: Not using CPU crc32 instructions
+2017-05-24 10:10:48 4032 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-05-24 10:10:48 4032 [Note] InnoDB: Completed initialization of buffer pool
+2017-05-24 10:10:48 4032 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-05-24 10:10:48 4032 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214574 in the ib_logfiles!
+2017-05-24 10:10:48 4032 [Note] InnoDB: Database was not shutdown normally!
+2017-05-24 10:10:48 4032 [Note] InnoDB: Starting crash recovery.
+2017-05-24 10:10:48 4032 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-05-24 10:10:52 4032 [Note] InnoDB: Restoring possible half-written data pages 
+2017-05-24 10:10:52 4032 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-05-24 10:10:54 4032 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-05-24 10:10:54 4032 [Note] InnoDB: Waiting for purge to start
+2017-05-24 10:10:54 4032 [Note] InnoDB: 5.6.11 started; log sequence number 6214574
+2017-05-24 10:10:54 4032 [Note] Recovering after a crash using mysql-bin
+2017-05-24 10:10:54 4032 [Note] Starting crash recovery...
+2017-05-24 10:10:54 4032 [Note] Crash recovery finished.
+2017-05-24 10:10:58 4032 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-05-24 10:10:58 4032 [Note] IPv6 is available.
+2017-05-24 10:10:58 4032 [Note]   - '::' resolves to '::';
+2017-05-24 10:10:58 4032 [Note] Server socket created on IP: '::'.
+2017-05-24 10:10:58 4032 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-24 10:10:58 4032 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-24 10:10:58 4032 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-24 10:10:58 4032 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-24 10:10:58 4032 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-24 10:10:59 4032 [Note] Event Scheduler: Loaded 0 events
+2017-05-24 10:10:59 4032 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-24 10:15:00 4032 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-24 10:16:45 4032 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-24 10:17:17 4032 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-24 10:58:44 4032 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-24 10:58:48 4032 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-31 03:29:27 1832 [Note] Plugin 'FEDERATED' is disabled.
+2017-05-31 03:29:28 1832 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-05-31 03:29:28 1832 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-05-31 03:29:28 1832 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-05-31 03:29:28 1832 [Note] InnoDB: Not using CPU crc32 instructions
+2017-05-31 03:29:28 1832 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-05-31 03:29:28 1832 [Note] InnoDB: Completed initialization of buffer pool
+2017-05-31 03:29:28 1832 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-05-31 03:29:28 1832 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214584 in the ib_logfiles!
+2017-05-31 03:29:28 1832 [Note] InnoDB: Database was not shutdown normally!
+2017-05-31 03:29:28 1832 [Note] InnoDB: Starting crash recovery.
+2017-05-31 03:29:28 1832 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-05-31 03:29:29 1832 [Note] InnoDB: Restoring possible half-written data pages 
+2017-05-31 03:29:29 1832 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-05-31 03:29:30 1832 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-05-31 03:29:30 1832 [Note] InnoDB: Waiting for purge to start
+2017-05-31 03:29:31 1832 [Note] InnoDB: 5.6.11 started; log sequence number 6214584
+2017-05-31 03:29:31 1832 [Note] Recovering after a crash using mysql-bin
+2017-05-31 03:29:31 1832 [Note] Starting crash recovery...
+2017-05-31 03:29:31 1832 [Note] Crash recovery finished.
+2017-05-31 03:29:33 1832 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-05-31 03:29:33 1832 [Note] IPv6 is available.
+2017-05-31 03:29:33 1832 [Note]   - '::' resolves to '::';
+2017-05-31 03:29:33 1832 [Note] Server socket created on IP: '::'.
+2017-05-31 03:29:35 1832 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-31 03:29:35 1832 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-31 03:29:35 1832 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-31 03:29:35 1832 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-31 03:29:35 1832 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-31 03:29:38 1832 [Note] Event Scheduler: Loaded 0 events
+2017-05-31 03:29:38 1832 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-31 03:33:51 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-05-31 10:34:58 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:32:21 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:32:46 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:33:16 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:52:50 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:52:56 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:53:13 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:53:18 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:53:31 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:53:35 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:53:51 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:53:55 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:54:16 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:54:34 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:54:59 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:55:30 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:55:46 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:57:05 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:57:31 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:58:38 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:58:44 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:58:51 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:59:02 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:59:37 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:59:45 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:59:52 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 01:59:58 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:00:09 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:00:36 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:00:45 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:05:50 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:06:08 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:06:27 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:06:33 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:06:46 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:06:50 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:06 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:13 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:30 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:35 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:40 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:49 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:07:56 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:08:03 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:08:20 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:08:26 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:08:30 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:09:08 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:09:44 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:10:29 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:10:32 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:10:51 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:10:58 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:11:02 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:11:19 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:11:26 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:11:42 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:11:54 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:12:05 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:12:11 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:12:14 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:12:43 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:12:51 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:13:10 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:13:14 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:13:23 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:14:58 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-09 02:15:52 1832 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2017-06-20 16:40:34 4424 [Note] Plugin 'FEDERATED' is disabled.
+2017-06-20 16:40:34 4424 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-20 16:40:34 4424 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-20 16:40:34 4424 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-20 16:40:34 4424 [Note] InnoDB: Not using CPU crc32 instructions
+2017-06-20 16:40:34 4424 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-20 16:40:34 4424 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-20 16:40:35 4424 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-06-20 16:40:35 4424 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214594 in the ib_logfiles!
+2017-06-20 16:40:35 4424 [Note] InnoDB: Database was not shutdown normally!
+2017-06-20 16:40:35 4424 [Note] InnoDB: Starting crash recovery.
+2017-06-20 16:40:35 4424 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-06-20 16:40:39 4424 [Note] InnoDB: Restoring possible half-written data pages 
+2017-06-20 16:40:39 4424 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-06-20 16:40:41 4424 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-06-20 16:40:41 4424 [Note] InnoDB: Waiting for purge to start
+2017-06-20 16:40:41 4424 [Note] InnoDB: 5.6.11 started; log sequence number 6214594
+2017-06-20 16:40:41 4424 [Note] Recovering after a crash using mysql-bin
+2017-06-20 16:40:41 4424 [Note] Starting crash recovery...
+2017-06-20 16:40:41 4424 [Note] Crash recovery finished.
+2017-06-20 16:40:46 4424 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-06-20 16:40:46 4424 [Note] IPv6 is available.
+2017-06-20 16:40:46 4424 [Note]   - '::' resolves to '::';
+2017-06-20 16:40:46 4424 [Note] Server socket created on IP: '::'.
+2017-06-20 16:40:47 4424 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-06-20 16:40:47 4424 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-06-20 16:40:47 4424 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-06-20 16:40:47 4424 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-06-20 16:40:47 4424 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-06-20 16:40:49 4424 [Note] Event Scheduler: Loaded 0 events
+2017-06-20 16:40:49 4424 [Note] C:\Users\John\Downloads\IFC - 2016\3FASE\BD I\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)

@@ -1,0 +1,152 @@
+2014-09-04 07:21:03 4092 [Note] Plugin 'FEDERATED' is disabled.
+2014-09-04 07:21:03 4092 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-09-04 07:21:03 4092 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-09-04 07:21:03 4092 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-09-04 07:21:03 4092 [Note] InnoDB: Not using CPU crc32 instructions
+2014-09-04 07:21:03 4092 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-09-04 07:21:03 4092 [Note] InnoDB: Completed initialization of buffer pool
+2014-09-04 07:21:04 4092 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-09-04 07:21:04 4092 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-09-04 07:21:04 4092 [Note] InnoDB: Waiting for purge to start
+2014-09-04 07:21:04 4092 [Note] InnoDB: 5.6.11 started; log sequence number 1701057
+2014-09-04 07:21:08 4092 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-09-04 07:21:08 4092 [Note] IPv6 is not available.
+2014-09-04 07:21:08 4092 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2014-09-04 07:21:08 4092 [Note] Server socket created on IP: '0.0.0.0'.
+2014-09-04 07:21:09 4092 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-09-04 07:21:09 4092 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2014-09-04 07:21:09 4092 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-09-04 07:21:09 4092 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-09-04 07:21:09 4092 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2014-09-04 07:21:10 4092 [Note] Event Scheduler: Loaded 0 events
+2014-09-04 07:21:10 4092 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-09-04 07:21:43 4092 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Normal shutdown
+
+2014-09-04 07:21:43 4092 [Note] Giving 0 client threads a chance to die gracefully
+2014-09-04 07:21:43 4092 [Note] Event Scheduler: Purging the queue. 0 events
+2014-09-04 07:21:43 4092 [Note] Shutting down slave threads
+2014-09-04 07:21:43 4092 [Note] Forcefully disconnecting 0 remaining clients
+2014-09-04 07:21:43 4092 [Note] Binlog end
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'partition'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_CMP'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'INNODB_TRX'
+2014-09-04 07:21:43 4092 [Note] Shutting down plugin 'InnoDB'
+2014-09-04 07:21:43 4092 [Note] InnoDB: FTS optimize thread exiting.
+2014-09-04 07:21:43 4092 [Note] InnoDB: Starting shutdown...
+2014-09-04 07:21:44 4092 [Note] InnoDB: Shutdown completed; log sequence number 1701067
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'BLACKHOLE'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'ARCHIVE'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'MyISAM'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'MEMORY'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'CSV'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'sha256_password'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'mysql_old_password'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'mysql_native_password'
+2014-09-04 07:21:44 4092 [Note] Shutting down plugin 'binlog'
+2014-09-04 07:21:44 4092 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+
+2014-09-04 07:21:49 2756 [Note] Plugin 'FEDERATED' is disabled.
+2014-09-04 07:21:49 2756 [Note] InnoDB: The InnoDB memory heap is disabled
+2014-09-04 07:21:49 2756 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2014-09-04 07:21:49 2756 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2014-09-04 07:21:49 2756 [Note] InnoDB: Not using CPU crc32 instructions
+2014-09-04 07:21:49 2756 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2014-09-04 07:21:49 2756 [Note] InnoDB: Completed initialization of buffer pool
+2014-09-04 07:21:49 2756 [Note] InnoDB: Highest supported file format is Barracuda.
+2014-09-04 07:21:49 2756 [Note] InnoDB: 128 rollback segment(s) are active.
+2014-09-04 07:21:49 2756 [Note] InnoDB: Waiting for purge to start
+2014-09-04 07:21:49 2756 [Note] InnoDB: 5.6.11 started; log sequence number 1701067
+2014-09-04 07:21:50 2756 [Note] Server hostname (bind-address): '*'; port: 3306
+2014-09-04 07:21:50 2756 [Note] IPv6 is not available.
+2014-09-04 07:21:50 2756 [Note]   - '0.0.0.0' resolves to '0.0.0.0';
+2014-09-04 07:21:50 2756 [Note] Server socket created on IP: '0.0.0.0'.
+2014-09-04 07:21:50 2756 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-09-04 07:21:50 2756 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2014-09-04 07:21:50 2756 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-09-04 07:21:50 2756 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2014-09-04 07:21:50 2756 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2014-09-04 07:21:50 2756 [Note] Event Scheduler: Loaded 0 events
+2014-09-04 07:21:50 2756 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2014-09-04 07:22:32 2756 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Normal shutdown
+
+2014-09-04 07:22:32 2756 [Note] Giving 0 client threads a chance to die gracefully
+2014-09-04 07:22:32 2756 [Note] Event Scheduler: Purging the queue. 0 events
+2014-09-04 07:22:32 2756 [Note] Shutting down slave threads
+2014-09-04 07:22:32 2756 [Note] Forcefully disconnecting 0 remaining clients
+2014-09-04 07:22:32 2756 [Note] Binlog end
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'partition'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_METRICS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_CMP'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_LOCKS'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'INNODB_TRX'
+2014-09-04 07:22:32 2756 [Note] Shutting down plugin 'InnoDB'
+2014-09-04 07:22:32 2756 [Note] InnoDB: FTS optimize thread exiting.
+2014-09-04 07:22:32 2756 [Note] InnoDB: Starting shutdown...
+2014-09-04 07:22:34 2756 [Note] InnoDB: Shutdown completed; log sequence number 1701077
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'BLACKHOLE'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'ARCHIVE'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'MRG_MYISAM'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'MyISAM'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'MEMORY'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'CSV'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'sha256_password'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'mysql_old_password'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'mysql_native_password'
+2014-09-04 07:22:34 2756 [Note] Shutting down plugin 'binlog'
+2014-09-04 07:22:34 2756 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+

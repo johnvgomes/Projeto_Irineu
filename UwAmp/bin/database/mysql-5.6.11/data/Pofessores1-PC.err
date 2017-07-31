@@ -1,0 +1,87 @@
+2015-04-08 09:14:15 3116 [Note] Plugin 'FEDERATED' is disabled.
+2015-04-08 09:14:15 3116 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-04-08 09:14:15 3116 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2015-04-08 09:14:15 3116 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2015-04-08 09:14:15 3116 [Note] InnoDB: Not using CPU crc32 instructions
+2015-04-08 09:14:15 3116 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2015-04-08 09:14:15 3116 [Note] InnoDB: Completed initialization of buffer pool
+2015-04-08 09:14:15 3116 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-04-08 09:14:15 3116 [Note] InnoDB: The log sequence numbers 6007342 and 6007342 in ibdata files do not match the log sequence number 6141408 in the ib_logfiles!
+2015-04-08 09:14:15 3116 [Note] InnoDB: Database was not shutdown normally!
+2015-04-08 09:14:15 3116 [Note] InnoDB: Starting crash recovery.
+2015-04-08 09:14:15 3116 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2015-04-08 09:14:16 3116 [Note] InnoDB: Restoring possible half-written data pages 
+2015-04-08 09:14:16 3116 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 4485, file name mysql-bin.000319
+2015-04-08 09:14:18 3116 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-04-08 09:14:18 3116 [Note] InnoDB: Waiting for purge to start
+2015-04-08 09:14:18 3116 [Note] InnoDB: 5.6.11 started; log sequence number 6141408
+2015-04-08 09:14:18 3116 [Note] Recovering after a crash using mysql-bin
+2015-04-08 09:14:18 3116 [Note] Starting crash recovery...
+2015-04-08 09:14:18 3116 [Note] Crash recovery finished.
+2015-04-08 09:14:19 3116 [Note] Server hostname (bind-address): '*'; port: 3306
+2015-04-08 09:14:19 3116 [Note] IPv6 is available.
+2015-04-08 09:14:19 3116 [Note]   - '::' resolves to '::';
+2015-04-08 09:14:19 3116 [Note] Server socket created on IP: '::'.
+2015-04-08 09:14:19 3116 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2015-04-08 09:14:19 3116 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2015-04-08 09:14:19 3116 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2015-04-08 09:14:19 3116 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2015-04-08 09:14:19 3116 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2015-04-08 09:14:19 3116 [Note] Event Scheduler: Loaded 0 events
+2015-04-08 09:14:19 3116 [Note] E:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2015-04-08 09:44:37 3116 [ERROR] Got error 127 when reading table '.\phpmyadmin\pma__relation'
+2015-04-08 09:44:41 34c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-08 09:44:41 34c InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."fabricantes" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-08 09:44:41 34c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-08 09:44:41 34c InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."funcionarios" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-08 09:44:41 34c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-08 09:44:41 34c InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."itens" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-08 09:44:41 34c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-08 09:44:41 34c InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."produtos" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-08 09:44:41 34c InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-08 09:44:41 34c InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."vendas" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-16 14:42:53 3988 [Note] Plugin 'FEDERATED' is disabled.
+2015-04-16 14:42:53 3988 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-04-16 14:42:53 3988 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2015-04-16 14:42:53 3988 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2015-04-16 14:42:53 3988 [Note] InnoDB: Not using CPU crc32 instructions
+2015-04-16 14:42:53 3988 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2015-04-16 14:42:53 3988 [Note] InnoDB: Completed initialization of buffer pool
+2015-04-16 14:42:53 3988 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-04-16 14:42:53 3988 [Note] InnoDB: The log sequence numbers 6143697 and 6143697 in ibdata files do not match the log sequence number 6143707 in the ib_logfiles!
+2015-04-16 14:42:53 3988 [Note] InnoDB: Database was not shutdown normally!
+2015-04-16 14:42:53 3988 [Note] InnoDB: Starting crash recovery.
+2015-04-16 14:42:53 3988 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2015-04-16 14:42:54 3988 [Note] InnoDB: Restoring possible half-written data pages 
+2015-04-16 14:42:54 3988 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 666, file name mysql-bin.000328
+2015-04-16 14:42:56 3988 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-04-16 14:42:56 3988 [Note] InnoDB: Waiting for purge to start
+2015-04-16 14:42:56 3988 [Note] InnoDB: 5.6.11 started; log sequence number 6143707
+2015-04-16 14:42:56 3988 [Note] Recovering after a crash using mysql-bin
+2015-04-16 14:42:56 3988 [Note] Starting crash recovery...
+2015-04-16 14:42:56 3988 [Note] Crash recovery finished.
+2015-04-16 14:42:56 3988 [Note] Server hostname (bind-address): '*'; port: 3306
+2015-04-16 14:42:56 3988 [Note] IPv6 is available.
+2015-04-16 14:42:56 3988 [Note]   - '::' resolves to '::';
+2015-04-16 14:42:56 3988 [Note] Server socket created on IP: '::'.
+2015-04-16 14:42:56 3988 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2015-04-16 14:42:56 3988 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2015-04-16 14:42:56 3988 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2015-04-16 14:42:56 3988 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2015-04-16 14:42:56 3988 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2015-04-16 14:42:56 3988 [Note] Event Scheduler: Loaded 0 events
+2015-04-16 14:42:56 3988 [Note] G:\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2015-04-16 14:43:14 5f4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."fabricantes" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."funcionarios" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."itens" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."produtos" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2015-04-16 14:43:14 5f4 InnoDB: Error: Fetch of persistent statistics requested for table "drogaria"."vendas" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.

@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 80% verdana;
+    background: #2FABFF;
+}
+img{
+    height:40px;
+    width:60px;
+
+}
+
+.nav{
+    width: 98%;
+    padding: 1%;
+    background: #0066ff;
+    float: left;
+    text-align: center;
+}
+
+.nav ul{list-style: none;}
+
+.nav ul li{
+    display: inline;
+    border-right: 0.1em solid white;
+}
+
+.nav ul li a {
+    padding: 1% 2% 1% 1%;
+    display: inline-block;
+    color: white;
+    text-decoration: none;    
+}
+
+.ultimo{
+    border-right: 0;
+}
+
+.nav ul li a:hover {
+    color: red;
+}
+
+.geral{
+    margin: 0 auto;
+    width: 80%;
+}
+
+section{
+    background: white;
+    padding:2%;
+}
+
+header{
+    width: 98%;
+    padding: 1%;
+    float:left;
+    height: 100px;
+    background: #2FABFF;
+}
+
+

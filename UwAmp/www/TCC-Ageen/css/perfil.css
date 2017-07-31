@@ -1,0 +1,530 @@
+#titulo_centro_conteudo{
+	
+	height:50px;
+	width:100%;
+	background: #8A008A;
+	position:relative;
+	;
+	}
+	
+	.titulo_conteudo_text {
+	
+	font-size:2.8em; /*16 pixels*/
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#ffffff;
+	position:relative;
+	text-align:center;
+}
+
+ .perfil_main{
+		 
+	top: 25%;
+	left:0%;
+	height:900px;
+	width:700px;
+	margin:0 auto;
+	margin-top:25px;
+	margin-bottom:25px; 
+	background:rgba(152,44,143,0.6);
+	position: relative;
+	border-bottom: 0.35em dashed #ccc;
+	border-left: 0.35em dashed #ccc;
+	border-right: 0.35em dashed #ccc;
+	border-top: 0.35em dashed #ccc;
+		 }
+	
+
+	
+
+div#cancelar_conta{
+
+    width: 80%;
+    margin: 0 auto;
+}
+.geral{
+    top: 5%;
+    width: 60%;
+	float:left;
+    left:19%;       
+    position: relative;
+}
+.logo{
+    top: 41%;
+    left: 13%;
+    height: 26%;
+    width: 13%;
+    margin: auto;
+    position: absolute;
+}
+
+div#comentario_text{
+
+    width: 1080px;
+    top:5%;
+    left:0;
+    position: absolute;
+
+
+}
+div#comentario_text2{
+
+
+    width: 45%;
+    margin: auto;
+    top:45%;
+    left:25%;
+    position: absolute;
+
+}
+.apenas_uma_conta_text{
+
+    text-align:center;
+    font-size:60px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#cccccc;
+    padding-top:5px
+
+}
+
+
+.organize_text{
+
+    text-align:center;
+    font-size:24px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#cccccc;
+    padding-top:5px
+}
+
+
+.contenido{
+
+    width: 100%;
+    padding: 2%;
+    background: #ffffff;
+    position: relative;
+    border-top: 0.1em solid #ccc;
+    border-bottom: 1em solid #ccc;
+    border-left: 0.1em solid #ccc;
+    border-right:  0.1em solid #ccc;
+}
+
+
+input, select{
+    padding: 0.7%;
+    margin-top: 0.5%;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    //width: 30%;
+}
+select{
+    width: 32.5%;
+}
+
+.solicitacao {
+    cursor: pointer;
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #39c;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding-top: 5%;
+  
+   
+
+}
+
+.solicitacaostatus {
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #8A008A;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding-top: 5%;
+  
+   
+
+}
+
+.solicitacaoignorar {
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #FF0000;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding-top: 5%;
+
+
+
+}
+
+.solicitacaoaceitar {
+    width: 100%;
+    height: 2.5em;
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #d8f2c0;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding-top: 5%;
+  
+   
+
+}
+input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    height: 3em;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #39c;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding: 0.5% 3% 0.5% 3%;
+
+}
+input[type="password"] {
+    width: 100%;
+    height:45px;
+    text-align: center;
+    font-size: 1.05em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-left:10px;
+    padding-bottom:5px ; 
+    margin-top:5%;
+
+}
+input[type="email"] {
+    width: 100%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-top:5%;
+
+}
+input[name="nome"] {
+    width: 48%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-right: 5px;
+    margin-top:5%;
+
+}
+
+input[name="sobrenome"] {
+    width: 48%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-left: 5px;
+    margin-top:5%;
+}
+
+input[name="num_celular"] {
+    width: 100%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-top:5%;
+
+}
+
+select[name="dia_nasc"] {
+    width: 30%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-left: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+
+select[name="mes_nasc"] {
+    width: 30%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-right:5px;
+    margin-left: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+select[name="ano_nasc"] {
+    width: 30%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+
+.cinzahr{
+	color:#CCCCCC;
+	background:#CCCCCC;}
+	
+	#tipo_pessoa_empresa {
+	margin-left:30%;
+    width: 40%;
+    height:20px;
+    float:left; 
+    }
+	#imagem_perfil_usuario{
+	top:6%;
+	left:20%;
+	height:200px;
+	width:200px;
+	position: relative;
+
+	}
+	
+.img_perfil_user{
+	
+	border:0;
+	height:100%;
+	width:100%;
+	position:absolute;
+	
+	}
+	#texto_empresa {
+    width: 40%;
+    height:20px;
+    float:left; 
+    padding-bottom:5px ; 
+    margin-left: 30%;
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+.empresa_text {
+
+		  text-align:center;
+          font-size:2em;
+          font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+          color:#CCCCCC;
+          padding-top:5px
+}
+
+div#site{
+    background:#ffffff;
+    width: 100%;
+    top:1.5%;
+    left: 0;
+    position: relative;
+
+}
+
+
+div#conteudo_form_perfil{
+    background:#ffffff;
+
+    width:80%;
+    margin: auto;
+    margin-top:5px;
+    margin-bottom:5px;
+	position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.conteudo{text-align:center;
+          font-size:60px;
+          font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+          color:#CCCCCC;
+          padding-top:5px
+}
+
+.format{
+    text-align:center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400px;
+    line-height: 20px;
+    color:#808080;
+    padding-top:5px;
+}
+
+.cancelarconta_text{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#6d00bc;
+    padding-top:5px
+}
+
+
+a{
+    text-decoration:none;
+    color:#6d00bc;
+}
+
+
+div#login_incorreto {
+    position:absolute ;
+    margin-left: 5px;
+    margin-right: 25px;
+    top:37.5%;
+    float:left;
+    background-color:#39c;
+    border-top:10px solid #39c;
+    border-left:10px solid transparent;
+    background-clip: padding-box;
+    padding: 0 10px 10px 10px;
+}
+
+
+.login_incorreto{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+
+}
+
+.login_incorreto_verifique{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+
+}
+
+div#cadastro_sucess {
+
+    background:url(../imagem/cadastrosucess.png) no-repeat ;
+    width: 360px;
+    height:85px;
+    margin: auto;
+    top:85.75%;
+    left:70%;
+    position: absolute;
+
+
+}
+
+
+.cadastro_sucess_parabens{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:15px;
+    padding-left: 50px;
+
+}
+
+.cadastro_sucess{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+
+
+}
+
+div#cadastro_fail {
+
+    background:url(../imagem/cadastrofail.png) no-repeat ;
+    width: 360px;
+    height:85px;
+    margin: auto;
+    top:85.75%;
+    left:70%;
+    position: absolute;
+
+
+}
+
+
+.cadastro_fail_sorry{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:15px;
+    padding-left: 50px;
+
+}
+
+.cadastro_fail{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+
+
+}
+
