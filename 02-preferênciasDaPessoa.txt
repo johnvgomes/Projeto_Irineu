@@ -1,0 +1,29 @@
+﻿Como usuário quero escolher que tipos de notificações quero receber 
+
+para que receba e-mail somente do que considero importante
+
+
+
+O que é importante:
+  
+  
+
+	Tipos de notificações:
+  
+
+	novo processo aberto, 
+	
+	inscrição validada, 
+        
+	
+	inscrição aceita, 
+        
+	
+	última semana para inscrição, 
+    
+	
+	último dia para inscrição
+    
+    
+	
+	O usuário pode escolher qual desse tipo vai receber

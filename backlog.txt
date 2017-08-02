@@ -1,0 +1,141 @@
+﻿26/07 - introdução
+    Introdução sobre o projeto, sobre como vai funcionar
+
+
+
+
+
+27/07 Classificação, git, primeiros conceitos sobre o projeto
+        
+
+
+			https://www.youtube.com/watch?v=oCp_-4Ne0Vo
+    
+
+
+	revisão de formas normais
+  
+
+			https://www.youtube.com/watch?v=Gfi2-GmfaG0
+      
+
+
+			https://www.youtube.com/watch?v=IphQruA7Ly4 <<<<<< TOP TOP TOP a partir de 21:26
+        
+
+			https://www.ime.usp.br/~andrers/aulas/bd2005-1/aula11.html
+
+    
+
+
+	5 mandamentos da normalização
+
+
+  	1. Não multivalorarás e não guardarás informações que não sejam únicas
+            
+
+		Valores multivalorados dentro um mesmo registros são proibidos
+ 
+
+
+		           http://www.luis.blog.br/primeira-forma-normal-1fn-normalizacao-de-dados.aspx
+        
+
+
+
+	2. Não conterás dependências partiais
+       
+
+	     Dependência funcional completa é obrigatória
+      
+
+	     Uma coluna depende em partes da chave primária
+           
+
+
+			 http://www.luis.blog.br/segunda-forma-normal-2fn-normalizacao-de-dados.aspx
+  
+
+	
+
+	3. Não dependerás de atributos não-chaves
+          
+ 
+	     Depende de um atributo não-chave
+  
+   
+             Eliminar dependência transitiva
+     
+
+
+			  http://www.luis.blog.br/terceira-forma-normal-3fn-normalizacao-de-dados.aspx 
+     
+
+
+
+	4. Não conterás dependências multivaloradas
+            
+	     
+             Livro(PK(ISBN, autores, assuntos))
+            
+
+	     Por exemplo, o mesmo autores para assuntos diferentes são dependentes de ISBN
+ 
+
+		           http://www.noginfo.com.br/arquivos/CC_EBD_02.pdf
+        
+
+
+
+	5. Não redundanterás em projeções e uniões
+ 
+
+	     Uma tabela com muitos atributos podem ser divididos em tabelas menores 
+
+	     tendo a mesma chave primária, mas em uma união 
+ 
+
+		           https://prezi.com/eov4nvponzzt/quinta-forma-normal-5fn/
+
+
+
+
+
+
+
+28/07 - início do projeto   
+
+
+
+    recomendados os livros que tem na biblioteca como leitura
+ 
+
+
+    recomendado que sejam feitos os story user cards 01, 02 e 03 
+   
+
+
+    Links:
+        
+
+	
+	Workbench (na voz de um moleque de 10 anos): https://www.youtube.com/watch?v=hLiBVGa1YT4
+
+
+        Workbench (erros comuns em modelagem): 
+
+			https://www.youtube.com/watch?v=brFgIDwJNo0 <<< cuidado, o nome dos atributos são ridículos
+
+
+        Workbench (mais um exemplo): https://www.youtube.com/watch?v=2zZQzLAE_HI
+        
+
+
+
+Aprender Github em 15 minutos (inglês): http://try.github.io/
+        
+
+Curso básico de Git: https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0
+    
+
+

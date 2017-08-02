@@ -1,0 +1,116 @@
+* {
+	margin:0;
+	padding:0;
+	border:0
+}
+body {
+	background:#eee
+}
+div#cabecalho {
+	background:#039;
+	height:5%;
+	width:100%;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px
+}
+.cabecalho_um {
+	text-align:center;
+	font-size:28px;
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#ffffff;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+
+
+div#pontocinza {
+	top:20%;
+	left:19%;
+	background:url(imagens/point-gray.png) repeat-y;
+	height:75%;
+	width:2%;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px;
+}
+div#imgbabyhungry {
+	top:20%;
+	left:2%;
+	background:url(imagens/baby.png) no-repeat;
+	height:202px;
+	width:202px;
+	margin:auto;
+	position:absolute;
+	margin-bottom:10%;
+	
+}
+div#imgmundo {
+	top:43%;
+	left:3.5%;
+	background:url(imagens/world-icon.png) no-repeat;
+	height:128px;
+	width:128px;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px;
+}
+div#imgbrasil {
+	top:59%;
+	left:3.5%;
+	background:url(imagens/brasil_icon.png) no-repeat;
+	height:128px;
+	width:128px;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px;
+	
+}
+
+div#imgdonate {
+	top:75%;
+	left:3.5%;
+	background:url(imagens/donate_icon.png) no-repeat;
+	height:128px;
+	width:128px;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px
+}
+div#imggifcincosegundos {
+	top:67%;
+	left:85%;
+	background:url(imagens/cincosegundos.gif) no-repeat;
+	height:220px;
+	width:176px;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px
+}
+div#texto_conteudo {
+	top:20%;
+	left:25%;
+	background:#eee;
+	height:75%;
+	width:65%;
+	margin:auto;
+	position:absolute;
+	padding-bottom:15px;
+}
+.titulo {
+	text-align:center;
+	font-size:28px;
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#333A;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+.texto_conteudo {
+	text-align:justify;
+	font-size:22px;
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#666;
+	padding-top:1%;
+	padding-bottom:1%;
+}
