@@ -10,10 +10,12 @@ create table pessoa(
 	
 	cdPessoa auto_increment int ,
 	CPF int unique NOT NULL,
-	nome varchar(100),	
-	nome_Fantasia varchar(100)
-	data_nasc date NOT NULL,
-	sexo varchar(100) NOT NULL,
+	nome_Completo varchar(200),	
+	data_Nasc date NOT NULL,
+	RG int  NOT NULL,
+	emissor_RG varchar(200)
+	sexo varchar(200) NOT NULL,
+	passaporte varchar(200) NOT NULL,
 	salario real NOT NULL,
 	cd_endereco int NOT NULL,
 	

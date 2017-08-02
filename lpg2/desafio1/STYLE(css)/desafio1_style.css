@@ -6,6 +6,18 @@
 body {
 	background:#333
 }
+
+
+
+body > nav {
+	background-color:#999999;
+	border-radius: 10px;
+    width: 20%;
+	margin: 0 2% 0 ;
+    float: left;
+	padding:15px;
+}
+	  
 div#imgmemecab {
 	background-color:#00FF33;
 	border-radius: 10px;
@@ -13,6 +25,7 @@ div#imgmemecab {
 	width: 16%;
 	margin: 20px 2% 0;
 	float: left;
+	
 }
 
 .cabecario {
@@ -20,7 +33,7 @@ div#imgmemecab {
 	border-radius: 10px;
 	width:96%;
 	margin:2%;
-	position:absolute;
+	float: left;
 	padding-bottom:15px;
 	
 	
