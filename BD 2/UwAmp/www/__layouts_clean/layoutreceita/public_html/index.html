@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+         <div class="geral">
+            <h2>Comprovante de Situação Cadastral no CPF</h2>
+            <div class="caixaRecuada">
+                <h3 class="tituloFormConsulta">Consulta Pública</h3>
+                <form id="theForm" method="post" action="ConsultaPublicaExibir.asp" name="frmConsultaPublica" >
+                    <div id="idMensagemErro">
+                        <span class='mensagemForm mensagemErro'>Os caracteres da imagem não foram preenchidos corretamente ou o tempo máximo para preenchimento foi ultrapassado. Por favor, preencha os dados novamente.</span>
+                    </div>							
+                    <div id="fieldForm">
+                        <div id="inputConsultaSituacao">
+                            <label for="txtCPF">CPF:</label>
+                            <input type="text" name="txtCPF" id="txtCPF" size="18" maxlength="11" title="Informe o CPF com 11 dígitos incluindo o DV"  onkeypress="javascript: return EntradaNumerico(event);" />
+                        </div>
+                        <!--					
+                                                                <div style="float: left;" data-ui-captcha-serpro="css;input" data-urlimagem="./captcha/gerarCaptcha.asp" data-urlsom="./captcha/gerarSom.asp"></div>
+                        -->
+
+                        <!-- para não usar o componente, usar esse código:-->
+
+                        <div style="border: 1px solid black; width: 210px; padding: 4px; float: left;">
+                            <div style="width: 100%;">
+                                <div style="float: left;">
+                                    <img id="imgCaptcha" src="./captcha/gerarCaptcha.asp">
+                                </div>
+                                <div style="width: 20px; float: right;">
+                                    <a href="javascript: reloadImagemCaptcha();"><img src="./images/reload.png"/></a>
+                                    <a href="javascript: play_sound('./captcha/gerarSom.asp');"><img src="./images/som.png" /></a>
+                                </div>
+                            </div>
+                            <label id="labelcaptcha">Digite os caracteres acima:</label>
+                            <input type="text" id="txtTexto_captcha_serpro_gov_br" name="txtTexto_captcha_serpro_gov_br" />
+                        </div>
+
+
+                    </div>							
+                    <div class="aviso">
+                        Este comprovante não fornece informações sobre a situação econômica, financeira
+                        ou fiscal do contribuinte, limitando-se tão somente a comprovar a situação cadastral
+                        no CPF com relação à entrega de declarações no último exercício.</div>
+                    <input id="id_submit" name="Enviar" type="submit" class="botoes" value="Consultar" />
+                    <input name="Limpar" type="button" class="botoes" value="Limpar" onclick="javascript: LimparTela()" style="float: right;"/>
+                </form>            
+            </div>
+            <!-- Fecha div caixaRecuada -->
+            <br />
+            <p class="aviso">
+                Observações:
+            </p>
+            <div class="quadroAviso">
+                <p class="aviso">
+                    a) CPF - deve ser informado completo, inclusive com o dígito verificador, sem separadores
+                    de números, pontos ou traços.
+                </p>
+                <p class="aviso">
+                    b) Código impresso ao lado - digite os 4 caracteres da imagem. Essa informação ajuda
+                    a Receita Federal do Brasil a evitar consultas por programas automáticos, que dificultam
+                    a utilização do aplicativo pelos demais contribuintes.
+                </p>
+                <p class="aviso">
+                    c) Para que a consulta funcione corretamente, é necessário que seu navegador esteja
+                    habilitado para gravação de 
+                    "<i class="mensagemErro">cookies</i>".
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

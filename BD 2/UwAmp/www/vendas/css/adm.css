@@ -1,0 +1,500 @@
+body{
+    font-family:Helvetica, Verdana, sans-serif;
+    background:url(../img/bg_normal.png) repeat;
+    margin:0;
+}
+
+a{
+    color:#99f;
+}
+a:hover{
+    color:#00f;
+}
+
+header, .mSelect a, .mAdd a, #infoBox, footer{
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    1px 1px 1px rgba(0, 0, 0, 0.5);
+    -o-box-shadow:    1px 1px 1px rgba(0, 0, 0, 0.5);
+    -ms-box-shadow:    1px 1px 1px rgba(0, 0, 0, 0.5);
+    box-shadow:         1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+header{
+    width:100%;
+    height:100px;
+    background:url(../img/bg.png);
+}
+header a{
+    width:100%;
+    height:100%;
+}
+
+#logoAdm{
+    background:url('../img/logo_adm.png');
+    float: left;
+    height: 100px;
+    width:500px;
+    margin-left:25px;
+}
+
+#logout{
+    float:right;
+    margin:25px 20px 0 0;
+}
+
+#container{
+    width:1300px;
+}
+
+menu{
+    width:250px;
+    padding:20px 0 20px 20px;
+    float:left;
+}
+menu ul{
+    list-style-type:none;
+    padding:0;
+}
+
+menu ul li{
+    margin:25px 0;
+}
+
+.mButton{
+    position:relative;
+    right:50px;
+}
+
+.mButton a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.mSelect a, .mAdd a{
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.mSelect a{
+    background-color:#ffcd47;
+    padding: 8px 15px;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+    position:relative;
+    left:25px;
+    /*float:left;
+    display:block;
+    width:170px;
+    margin:2px 4px 0 2px;*/
+}
+
+.mSelect a:hover{
+    background-color:#ffde58;
+}
+
+.mAdd a{
+    background-color:#94d622;
+    padding: 8px 8px 8px 28px;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+    /*float:right;
+    display:block;
+    margin:1px 0;*/
+}
+
+.mAdd a:hover{
+    background-color:#a5e733;
+}
+
+section{
+    width:1000px;
+    float:left;
+}
+
+#infoBox{
+    width:100%;
+    background-color:#fff;
+    padding:25px;
+    margin:45px 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    width:100%;
+    padding:2px 0;
+    background-color:rgba(255, 241, 253, 0.75);
+    border:1px solid #fff199;
+    position:fixed;
+    bottom:0;
+}
+
+#welcome{
+    font-size:20px;
+    color:#d0a000;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+form table{
+    width:100%;
+}
+
+#infoTitle, form h1{
+    font-size:22px;
+    color:#d0a000;
+}
+
+form label{
+    font-size:17px;
+}
+
+form input{
+    width:250px;
+}
+
+form textarea{
+    width:100%;
+    height:100px;
+    max-width:100%;
+}
+
+form input[type='submit'], form input[type='button']{
+    width:auto;
+    color:#666;
+    font-size: 17px;
+    padding: 2px;
+}
+
+form input[type='checkbox'], form input[type='file']{
+    width:auto;
+}
+
+.right{
+    text-align:right;
+}
+
+.infoTable{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.infoTable thead{
+    text-align:center;
+    background-color:#ddd;
+}
+
+.infoTable tr td{
+    border:1px solid #ccc;
+}
+
+.infoImg{
+    text-align:center;
+}
+
+.infoImg img{
+    margin:auto;
+    display:block;
+}
+
+.mRestrict a{
+    padding-right:25px;
+    -webkit-border-radius: 0 20px 20px 0;
+    -moz-border-radius: 0 20px 20px 0;
+    -o-border-radius: 0 20px 20px 0;
+    -ms-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+}
+
+span.aviso{
+    color:red;
+    font-style:italic;
+    visibility:hidden;
+}
+
+.separaForm{
+    margin:50px 0;
+}
+
+#infoSTitle{
+    font-size:20px;
+    color:#d0a000;
+}
+
+#previewBox{
+    width:100%;
+    height:200px;
+}
+
+#divFotos{
+    margin-top:50px;
+}
+
+span#invalid{
+    color:red;
+    font-style:italic;
+    visibility:hidden;
+}
+
+#showTags{
+    width:40px;
+    height:40px;
+    float:right;
+    background-image:url('../img/showTags.png');
+    background-size:cover;
+    cursor:pointer;
+    position:relative;
+    bottom:50px;
+}
+
+#tagCont{
+    padding:25px 0 50px 0;
+}
+
+#inputTags{
+    font-size:20px;
+    background-color:white;
+    border:1px #a9a9a9 inset;
+    height:39px;
+    width:100%;
+}
+
+.tag{
+    font-size:20px;
+    width:auto;
+    color:white;
+    padding:6px 8px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -o-border-radius:20px;
+    -ms-border-radius:20px;
+    border-radius:20px;
+    background:#dcd45c;
+    font-weight:bold;
+    margin:2px;
+    float:left;
+    display:inline-block;
+}
+
+.delTag{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+    position:relative;
+    top:2px;
+}
+
+#coverBody{
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    background-color:rgba(100, 100, 100, 0.75);
+}
+
+#mostrarTags{
+    position:fixed;
+    width:500px;
+    min-height:300px;
+    z-index:15;
+    top:5%;
+    left:50%;
+    margin-left:-250px;
+    background:red;
+    background-color:#fff;
+    padding:50px;
+    padding-top:25px;
+    border:1px solid #ccc;
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:    3px 3px 3px rgba(0, 0, 0, 0.25);
+    -o-box-shadow:    3px 3px 3px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow:    3px 3px 3px rgba(0, 0, 0, 0.25);
+    box-shadow:         3px 3px 3px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.createdTag{
+    color:#a07000;
+    text-decoration:underline;
+    -webkit-text-decoration-style: dashed;
+    -moz-text-decoration-style: dashed;
+    -o-text-decoration-style: dashed;
+    -ms-text-decoration-style: dashed;
+    text-decoration-style: dashed;
+}
+
+#escShow{
+    width:40px;
+    height:40px;
+    float:right;
+    background-color:#fff;
+    background-image:url('../img/escShow.png');
+    background-size:cover;
+    cursor:pointer;
+    position:relative;
+    bottom:40px;
+    left:60px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.clickable{
+    cursor:pointer;
+}
+
+.trBox{
+    background-color:#fff !important;
+}
+
+.trBox > td{
+    border:0 !important;
+    padding:10px;
+    padding-left:30px;
+}
+
+.trBox table{
+    width:100%;
+}
+
+.trBox table tr td{
+    display:inline-table;
+    border:0;
+}
+
+.imgProduto{
+    margin:5px;
+    float:left;
+}
+
+.imgProduto img{
+    height:100px;
+}
+
+#img0{
+    border:3px solid #fff;
+}
+
+#img1{
+    border:3px solid #ccb;
+}
+
+.itemHead{
+    padding-top:30px;
+    font-weight:bold;
+}
+
+#filterTable{
+    margin:15px 0;
+    height:30px;
+    font-size:18px;
+    color:#666;
+}
+
+.search{
+    float:left;
+}
+
+.order{
+    float:right;
+}
+
+#navTable{
+    width:220px;
+    height:30px;
+    font-size:35px;
+    text-align:center;
+    color:#999;
+    margin:15px auto;
+}
+
+#navTable > *{
+    height:25px;
+    width:50px;
+    cursor:pointer;
+    margin:0 10px;
+    float:left;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.back{
+    height:25px;
+    width:50px;
+    background:url('../img/voltar.png') no-repeat;
+    background-size:cover;
+    margin-top:10px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.listing{
+    float:right;
+    position:relative;
+    bottom:30px;
+}
+
+.listing input{
+    width:40px;
+}
+
+.imgLoading{
+    width:100px;
+    margin:20px auto;
+}
+
+#homeTable{
+    margin:40px 0 20px 0;
+    width:100%;
+    border-collapse:collapse;
+    text-align:center;
+}
+
+#homeTable tr td:first-child{
+    text-align:left;
+    background-color:#f6f8f6;
+}
+
+#homeTable thead tr td{
+    background-color:#085ea4 !important;
+    font-weight:bold;
+    color:#fff;
+}
+
+#homeTable tr td{
+    padding:2px;
+    border:1px solid #ccc;
+}
+
+#homeTable thead td{
+    border:1px solid #0866a4;
+    text-align:center !important;
+}
+
+.infoTable > tbody > tr:nth-of-type(even) {
+    background-color:#eee;
+}

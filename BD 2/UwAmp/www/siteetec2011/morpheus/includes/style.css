@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'Ubuntu';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Ubuntu'), url('/atena/ubuntu.woff') format('woff');
+}
+
+label {
+	font-weight: bold;
+}
+
+label span {
+	font-weight: normal;
+}
+
+body {
+	padding: 15px;
+	padding-bottom: 30px;
+}
+
+form {
+	margin-bottom: auto;
+	line-height: 18px;
+}
+
+select {
+	width: auto;
+}
+
+input.maiusculo {
+	text-transform: uppercase;
+}
+
+div.sup {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 10px;
+}
+
+div.sup form {
+	display: inline;
+}
+
+table .red,
+.red {
+	color: red;
+}
+
+table {
+	width: auto;
+}
+
+table th,
+table thead th,
+table tbody th {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.table {
+	width: auto;
+}
+
+div.topic-text {
+	display: none;
+}
+
+span.info {
+	font-size: 70%;
+	color: #676767; /* cinza escuro */
+}
+
+span.ajuda {
+	padding-bottom: 0px;
+	border-bottom: 1px dotted;
+}
+
+.table-striped tbody tr td.aviso,
+td.aviso {
+	background: #fff4c2; /* amarelo claro */
+}
+
+.table-striped tbody tr.erro td,
+.table-striped tbody tr td.erro,
+td.erro, tr.erro td {
+	background: #ffbbbb; /* vermelho claro */
+}
+
+.table-striped tbody tr td.ok,
+td.ok {
+	background: #ddf8cc; /* verde claro */
+}
+
+.table th {
+	text-align: center;
+	vertical-align: middle;	
+}
+
+.centro {
+	text-align: center;
+}
+
+div.meio {
+	margin: 0 auto;
+	float: none;
+}
+
+.quebraPagina {
+	page-break-after: always;
+}
+
+.u {
+	text-decoration: underline;
+}
+
+/* Auto complete */
+div.autocomplete {
+	position: absolute;
+	background-color: #ffffff; /* branco */
+	border: 1px solid #676767; /* cinza escuro */
+	font-size: 80%;
+}
+
+div.autocomplete ul {
+	padding-left: 0;
+	margin: 0;
+	list-style: none;
+}
+
+div.autocomplete ul li {
+	padding: 1px 10px;
+	cursor: pointer;
+	color: #676767; /* cinza escuro */
+}
+
+div.autocomplete ul li.sel {
+	background-color: #c3d9ff; /* azul claro */
+}
+
+ul.menu li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+span.icone {
+	display: none;
+	margin-left: 5px;
+	background-image: url(img/glyphicons-halflings.png);
+	background-position: -288px 0;
+	min-width: 16px;
+	min-height: 16px;
+}
+/* Fim Auto complete */
+
+.vertical {
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+div.feedback {
+	position: fixed;
+	bottom: 5px;
+	right: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.label {
+	padding: 3px;
+	margin: 2px;
+	text-transform: none;
+	display: inline-block;
+}
+
+table.relatorio td, table.relatorio th {
+	border: 1px solid black;
+}
+
+table tr.sem-borda td, table td.sem-borda {
+	border-width: 0;
+}
+
+#lightboxImage {
+	min-width: 200px;
+	max-width: 1000px;
+	max-height: 600px;
+}
+
+/* corrige um bug no dropdown quando o texto é muito longo */
+.dropdown-menu {
+	max-width: none;
+}
+
+@media print {
+
+	div.sup {
+		display: none;
+	}
+
+	.no-print {
+		display: none;
+	}
+
+	a {
+		color: #000000; /* preto */
+		text-decoration: none;
+	}
+
+	a:visited {
+		color: #000000; /* preto */
+		text-decoration: none;
+	}
+
+	.red {
+		color: #000;
+	}
+	
+	table .red {
+		color: #000;
+		border-top-color: black;
+		border-bottom-color: black;
+	}
+	
+	div.alert {
+		display: none;
+	}
+
+	div.feedback {
+		display: none;
+	}
+	
+	body {
+		padding: 0;
+		margin: 0;
+		line-height: normal;
+	}
+
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ETEC Itu - Agenda</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Estilos -->
+    <link href="<?=STATIC_URL?>/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Scripts -->
+    <script type="text/javascript" src="<?=STATIC_URL?>/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="<?=STATIC_URL?>/bootstrap.js"></script>    
+    <script type="text/javascript" src="<?=STATIC_URL?>/bootbox.min.js"></script>
+    <script type="text/javascript" src="<?=STATIC_URL?>/funcoes.js"></script>    
+
+  </head>
+
+  <body>
+
+    <!-- Container -->
+
+    <div class="container">
+
+      <!-- Barra de navegação -->
+
+
+      <div class="navbar">
+          <div class="navbar-inner">
+            <div class="container">
+
+              <!-- Opções de Menu -->
+
+              <a href="<?=SITE_URL;?>/" class="brand">
+                  <img width="110" src="<?=IMG_URL;?>/etec.png" alt="TreinaWeb Cursos">
+              </a>
+              
+              <div class="nav-collapse">
+                  
+                <ul class="nav">
+                  <li class="active"><a href="<?=SITE_URL;?>/">Agenda</a></li>
+                  <li><a href="<?=SITE_URL;?>/contato/novo">Cadastrar Contato</a></li>
+                </ul>
+
+                <!-- Formulário de pesquisa -->
+
+                <form id="form-search" action="<?=SITE_URL;?>/index/main/" method="get" class="navbar-search pull-left">
+                    <input required type="text" value="<?php echo Session::get("busca-termo"); Session::delete("busca-termo"); ?>" placeholder="Pesquisar" name="busca" id="busca" class="search-query span2">
+                  <button class="btn btn-pesquisar">Pesquisar</button>
+                </form>
+                
+                <?php if( Session::get("logado") ): ?>
+                
+                    <ul class="nav rigth">
+                    <li class="active"><a href="<?=SITE_URL;?>/index/logout">Logout</a></li>
+                    </ul>  
+                
+                <?php endif; ?>
+
+              </div><!-- /.nav-collapse -->
+            </div>
+          </div><!-- /navbar-inner -->
+        </div>

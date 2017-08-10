@@ -1,0 +1,364 @@
+.geral input {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    border:1px solid #9c9c9c;
+    height:20px;
+}
+
+.geral label {
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    color:#24498a;
+}
+
+.geral .caixaRecuada{   
+    /*background:#f0f1f4; */
+    border-bottom:1px solid #A3B3Ca;
+    border-left:1px solid #A3B3Ca;
+    border-right:1px solid #A3B3Ca;		
+    display:table;
+    padding-bottom:5px;	
+    width:757px;
+}
+
+.geral  .tituloFormConsulta{    
+    background-color:#e7eff7;
+    border-top:1px solid #A3B3Ca;
+    border-bottom:1px solid #A3B3Ca;
+    color:#24498a;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    margin:0;
+    padding:3px 3px 3px 5px;	
+}
+
+.geral .mensagemForm {
+    color:#000;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    font-weight:bold;	
+    margin-left:6px;
+    margin-top:18px;
+    display:block;
+}
+
+.geral .mensagemErro {
+    color: #F00;
+}
+
+.geral  #fieldForm {
+    background:#f0f1f4;
+    border-bottom-style:none;
+    border-left-style:none;
+    border-right-style:none;
+    display:table;
+    height:90px;
+    padding-top:16px;
+    width:100%;
+    padding-bottom: 14px;
+    border-top: 0.1em solid #329fd7;
+}
+
+.geral #inputConsultaSituacao{
+    float:left;
+    padding-left:6px;
+    width:35%;	
+}
+
+.geral #captchaConsutlaSituacao{
+    float:left;
+    padding-left:20px;
+}
+
+.geral .aviso {
+    font-size:12px;	
+    margin:6px;
+    margin-top:30px;
+}
+
+.geral  .botoes {
+    background-color:#edf2f7;
+    border:1px solid #7a97c6;
+    cursor:pointer;
+    display:block;
+    float:right;
+    margin-right:8px;
+    margin-bottom:10px;
+    margin-top:5px;
+    padding:3px;
+}
+
+.geral  .botoes:active {
+    background-color:#fff;
+}
+
+
+.geral  .quadroAviso{
+    width:757px;
+}
+
+
+
+.geral .caixaRecuada > h3 {
+    background-image:none;
+}
+
+
+/**
+ * O padrão de posicionamento para os inputs, selects e labels
+
+*/
+
+.botaoSemFloat {
+    float: none;
+    display: block;
+    margin-top: 15px;
+    border: 1px solid #7a97c6;
+    background-color: #edf2f7;
+    cursor: pointer;
+}
+
+input.desabilitado{
+    background-color: #dddddd;
+}
+input.habilitado{
+    background-color: #ffffff;
+}
+input[type="hidden"] {
+    border:none;
+}
+
+
+.labelEsquerda a {
+    font-weight: bold;
+}
+
+.labelEsquerda a:hover {
+    font-weight: bold;
+}
+.labelEscondido {
+    display: none;
+}
+
+br {
+    clear:left;
+}
+
+/**
+ * Tags do field set, define também o local do legend (mais acima)
+*/
+
+
+
+
+legend {
+    display: none;
+}
+
+/**
+ * Como a combo e o select (radio) são os mesmo tags,
+ * precisamos criar esta classe para ser colocada nos
+ * combos.
+*/
+.classeCombo {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    border: 1px solid #9c9c9c;
+    float: left;
+    display: block;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+/**
+ * O separador de campos dentro do fieldset
+*/
+.subtitulo2 {
+    display: block;
+    float: left;
+    width: 99%;
+    border-bottom: 1px dashed #646464;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #5a5a5a;
+    padding-top: 12px;
+    margin-bottom: 6px;
+}
+
+a,a:visited {
+    color: #24498a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/**
+ * Classes para as caixinhas em volta do formulário
+
+
+.titFormulario {
+        vertical-align: middle;
+        float: left;
+        display: block;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 6px;
+        margin-top: 3px;
+        color: #24498a;	
+}
+
+.caixaTitulo {
+        width: 764px;
+        height: 20px;
+        border: 1px solid #A3B3Ca;
+        background-color: #e7eff7;
+        margin: 0 0 0 6px;
+}
+
+
+
+
+
+.ajuda {
+        display: block;
+        float: right;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #3366cc;
+        text-align: right;
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-top: 3px;
+}
+
+.invisivel {
+        display: none;
+}
+
+
+/**
+ * Tela Formulario01.asp
+
+.campo1coluna {
+        float:left;
+        width: 725px;
+        border: 1px solid #A3B3Ca;
+        padding-top: 4px;
+        padding-bottom: 4px;
+}
+
+.campo600 {
+        float:left;
+        width: 600px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #A3B3Ca;
+}
+
+.campo125 {
+        float:left;
+        width: 125px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #A3B3Ca;
+}
+
+.campo100 {
+        float:left;
+        width: 99px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #A3B3Ca;
+}
+
+.campo325 {
+        float:left;
+        width: 325px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #A3B3Ca;
+}
+
+.campo200 {
+        float:left;
+        width: 200px;
+        height: 28px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #A3B3Ca;
+}
+
+.nomevalor {
+        font-weight: bold;
+        color: #000080;
+        font-size: 10px;
+        margin: 4px;
+}
+
+.valor {
+        font-size: 10px;
+        margin: 4px;
+}
+
+.recibo {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+}
+
+
+
+
+
+
+/**
+ * CSS para o modelo Captcha
+
+*/
+
+.botoesHover {
+    display: block;
+    float: right;
+    margin-top: 15px;
+    border: 1px solid #7a97c6;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+
+
+.linkImagem {
+    color: #3366CC;
+    font-size: 9px;
+    float:none;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.linkSom {
+    color: #3366CC;
+    font-size: 9px;
+    float:none;
+    text-decoration: none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.textoInformativo {
+    color: #24498a;
+    font-size: 9px;
+    text-decoration: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float:none;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+*/

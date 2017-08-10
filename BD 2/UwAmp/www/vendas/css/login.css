@@ -1,0 +1,84 @@
+body{
+    font-family:Helvetica, Verdana, sans-serif;
+    background:url(../img/bg.png);
+    margin:0;
+}
+
+a{
+    color:#99f;
+}
+a:hover{
+    color:#00f;
+}
+
+#lBox, #recuperar{
+    background: -moz-linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(242, 240, 237) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(242, 240, 237) 100%);
+    background: -o-linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(242, 240, 237) 100%);
+    background: -ms-linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(242, 240, 237) 100%);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 50%, rgb(242, 240, 237) 100%);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow:    4px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    -o-box-shadow:    4px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    -ms-box-shadow:    4px 4px 5px 0px rgba(0, 0, 0, 0.25);
+    box-shadow:         4px 4px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+#lBox{
+    width:250px;
+    padding:25px;
+    margin:0 auto;
+    margin-top:10%;
+    background-color:#fff;
+    border:2px solid #ccc;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+
+}
+
+#lBox table{
+    width:100%;
+    border:none;
+    font-size:17px;
+    margin-bottom:20px;
+}
+
+#lTitle{
+    color:#f2c222;
+    font-size:34px;
+    text-align:center;
+    font-weight:bold;
+    text-shadow: -1px -1px 1px rgba(184, 147, 25, 1);
+}
+
+.textBox{
+    width:175px;
+}
+
+.sbmButton{
+    text-align:right;
+}
+
+#lEntrar{
+    color:#666;
+    font-size: 17px;
+    padding: 2px;
+}
+
+#recuperar{
+    width:90%;
+    padding:25px 5%;
+    background-color:#fff;
+    border-bottom:2px solid #ccc;
+}
+
+#rEnviar{
+    color:#666;
+}
+
+.phpBox{
+    margin:10px 0;
+}

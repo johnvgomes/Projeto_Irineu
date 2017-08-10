@@ -1,0 +1,45 @@
+body{
+	margin:0px;
+	font: 12px Arial, Helvetica, sans-serif;
+	background:#ffe;
+	text-align:center;
+	padding: 0px;
+}
+#tudo {
+	width:760px;
+	background: url(http://maujor.com/tutorial/apoio_lay2faux/faux-bg.gif) repeat-y 0 0;
+	text-align:left;
+	margin:0 auto;
+}
+#topo {	
+	height:80px;
+	background-color:#df7ddf;
+}
+
+#principal {
+	width:578px;
+	background-color:#9cf;
+	float:right;
+}
+#navegacao {
+	width:180px;
+	background-color:#ffbe7d;
+	float:left;
+}
+#navegacao p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#principal * {
+	padding: 0 20px;
+}
+#navegacao * {
+	padding: 0 8px;
+}
+#rodape {	
+	clear:both;
+	height:20px;
+	background-color:#b5daa2;
+}

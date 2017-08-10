@@ -1,0 +1,35 @@
+body{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.imgBox{
+    width:150px;
+    height:150px;
+    margin:0 5px;
+    display:inline-block;
+    border-style:solid;
+    background-size:cover;
+    background-color:#b2dbcb;
+    border-color:#b2dbcb;
+    border-width:5px;
+    cursor:pointer;
+}
+
+#newBox{
+    background-color:#fdd4e4;
+    border-color:#fdd4e4;
+    background-image:url('../img/newBox.png');
+}
+
+.selected{
+    border-color:#328efd !important;
+}
+
+.delBox{
+    width:30px;
+    height:30px;
+    float:right;
+    cursor:pointer;
+}

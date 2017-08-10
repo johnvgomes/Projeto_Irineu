@@ -1,0 +1,18 @@
+DEPOIS DE TUDO RESOLVIDO, EXCLUIR AS TABLES MANUAL-TCC e MANUAL-ALUNOS
+
+Criar uma table sql que consiga atender aos manuais de tcc e aluno, manuais de servidor docente, acesso a holerite, recadastramento, plano escolar.
+
+Tudo controlado por métodos de uma única class Arquivo
+
+Table MySQL
+create table arquivo(
+    id int auto_increment primary key,
+    descricao varchar(100),
+    arquivo varchar(100),
+    imagem varchar(100),	
+    tipo varchar(50),
+
+    );
+
+Tipos: Com arquivo e Sem arquivo (Aluno sem arquivo, Aluno com Arquivo, Servidor sem arquivo, Servidor com arquivo, Plano Escolar)
+O campo arquivo ou recebe um arquivo, ou url amigável ou arquivo externo (vou tratar num if/else dentro do consultar)

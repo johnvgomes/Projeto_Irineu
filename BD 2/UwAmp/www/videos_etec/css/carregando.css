@@ -1,0 +1,6 @@
+.loader{background-image:url(../imagem/sq.jpg); position: fixed;top:0px;right: 0;bottom: 0;z-index: 9999;left: 0;border-top:5px solid #FFF;}
+.loader .welcome{display: block;position: absolute;width: 320px;height: 180px;top: 20%;left: 50%;margin: -90px 0 0 -160px;color: #FFF;}
+.loader .welcome .phrase{display: block; font-size:40px; position: relative;text-align: center;}
+.loader .welcome .loading{letter-spacing: 27px;font-size: 11px;display: block;opacity: .5;}
+.teste{width: 320px; margin-left: 47%;}
+.logoloading{margin-top: 20%;margin-left: 33.5%;}

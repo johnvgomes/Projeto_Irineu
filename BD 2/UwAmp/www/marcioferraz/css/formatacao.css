@@ -1,0 +1,136 @@
+*  {
+    margin:0;
+    padding:0;
+}
+
+.esquerda, .direita{
+    padding: 5px;
+    margin: 0px 10px 0 0;
+    text-align: justify;
+    vertical-align: middle;
+    width: 45%;
+
+}
+
+.esquerda{
+    float: left;
+    height: 40px;
+}
+
+.pagina{
+    width: 90%;
+    text-align: justify;
+    margin: 0 0 20px 40px;
+}
+
+.direita{
+    float: right;
+}
+
+.esquerda h3{
+    font-family: verdana;
+}
+
+.aumentar{
+    font: 20px 'verdana';
+    color: #D90000;
+    vertical-align: middle;
+}
+
+/*informações do rodapé inicio*/
+
+footer article .rodape .mapadosite, 
+footer article .rodape .mapadosite1,
+footer article .rodape .mapadosite2{
+    float:left;
+    text-align:left;
+    margin: 10px 0 0 20px;
+    font-family:verdana;
+    border-right:1px solid #246FA6; 
+    height: 245px;
+}
+footer article .rodape .mapadosite .email, footer article .rodape .mapadosite a:hover{
+    color:#246FA6;
+}
+
+footer article .rodape .mapadosite a,footer article .rodape .mapadosite2 a{
+    text-decoration:none;
+    color: white;
+    margin: 0 0 0 0px;
+
+}
+
+footer article .rodape .mapadosite2 a:hover{
+    border-radius:2px;
+    background: #246FA6;
+    padding:2px;
+}
+
+footer article .rodape .mapadosite2{
+    border:0px;
+}
+
+footer article .rodape .barrainferior{
+    width: 99.8%;
+    height: 26px;
+    float: left;
+    margin: 10px 0 0 0;
+    padding: 2px;
+    font-family: verdana;
+    vertical-align: middle;
+    background: url('../imagem/rodape.fw.png');
+    text-align: center;
+}
+
+footer article .rodape .mapadosite, 
+footer article .rodape .mapadosite2{
+    width: 18%;
+}
+
+footer article .rodape .mapadosite1{
+    width: 32%;
+}
+
+footer article .rodape .mapadosite h3,
+footer article .rodape .mapadosite2 h3,
+footer article .rodape .mapadosite1 h3{
+    color: #fff;
+}
+/*informações do rodapé fim*/
+
+.pagina .verticalizar{
+    float: right;
+    width: 91%;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.pagina .imagemformatada{
+    float: left;
+    width: 6%;
+    
+}
+
+footer article .rodape .mapadosite input{
+    border-radius: 5px;
+    border: 1px solid #246FA6;
+    padding: 3px;
+    margin-bottom: 5px;
+    background: #fff;
+    color: #246FA6;
+    font-family: verdana;
+}
+
+footer article .rodape .mapadosite #btnemail{
+    background: #246FA6;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    float: right;
+    margin-right: 15px;
+}
+
+#banner-slide{
+    margin: 0 auto;
+}

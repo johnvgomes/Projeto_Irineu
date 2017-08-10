@@ -1,0 +1,51 @@
+<?php
+    
+    // Carrega a View Topo
+
+    $this->loadView("index/topo");
+    
+?>
+
+<div class="row-fluid">
+    
+    <?php if( Session::get("erro-login") ): ?>
+    
+        <div class="alert alert-error"><?=Session::get("erro-login");?></div>
+    
+    <?php 
+    
+    // Remove a sessão
+    Session::delete("erro-login");    
+    
+    endif;
+    
+    ?>
+
+    <form class="form-horizontal" method="post" action="<?=SITE_URL;?>/login/processar">
+    <fieldset>
+        <legend>Entre com seus dados</legend>
+        
+        <p>
+            <label for="input-email">E-mail:</label>
+            <input type="text" id="input-email" name="input-email" placeholder="Email">        
+        </p>
+        
+        <p>
+            <label for="input-senha">Senha:</label>
+            <input type="password" id="input-senha" name="input-senha" placeholder="Senha">        
+        </p>        
+
+        <button type="submit" class="btn">Entrar</button>
+        
+    </fieldset>
+</form>
+
+</div>
+
+<?php
+    
+    // Carrega a View Rodapé
+
+    $this->loadView("index/rodape");
+    
+?>

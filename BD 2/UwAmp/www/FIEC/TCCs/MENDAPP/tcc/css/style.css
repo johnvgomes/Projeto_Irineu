@@ -1,0 +1,504 @@
+*{font-family: 'Segoe UI'}
+html, body{
+	padding: 0; 
+	margin: 0;
+}
+a{
+	cursor: pointer;
+}
+html{
+	background-color:#000; 
+}
+textarea,input{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+#LISTAMENU{
+	/* height: 78%; */
+	width: auto;
+	top: 124px;
+	position: fixed;
+	z-index: 2000;
+	background-color: rgba(0,0,0,0.8);
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#header{
+	display: block;
+	height:110px;
+	width: 100%;
+	box-shadow: 0 4px 4px rgba(0,0,0,.4);
+	background-color: rgba(0, 0, 0,1);
+	z-index:999;
+	position: relative;
+	top: 0;
+}
+#logo img{
+	/* position: relative; */
+	/* z-index: 1; */
+	/* FLOAT: RIGHT; */
+	margin-top: 20px;
+}
+#Menu{
+	/* width: 16%; */
+	float: left;
+	margin-left: 24px;
+}
+.logout{
+	color: #FFF;
+	font-weight: bold;
+	z-index: 1013;
+	position: absolute;
+
+	margin-top: -110px;
+	width: 183px;
+	height: 110px;
+	display: block;		
+	/* background-color: rgba(255,255,255,0.4); */
+}
+.logout a{
+	color: #FFF;
+	text-decoration: none;
+}
+#conteudo {
+	/* height: 332px; */
+	width: 100%;
+}
+
+#rodape {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left:0;
+	display: block;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 1);
+}
+.clear{
+	clear: both;
+}
+
+.centro {
+	position: relative;
+	left: 25%;
+	z-index: 1;
+	width:700px;
+	color:#FFF;
+	text-shadow:0 5px 5px #000;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.centralizador{
+	width: 800px; 
+	height: 400px;
+	left: 59%;
+	margin-left:-400px; /* metade da largura fictÃƒÂ­cia */
+	position:absolute;
+}
+
+
+#espacoCimaTopo {
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+#form {
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 100%;
+	border-radius: 4px 4px 4px 4px;
+	overflow: hidden;
+	margin-top: -21px;
+	padding-top: 29px;
+}
+.organizerSobre{
+	width: 100%;
+	height: auto;
+	border-radius: 4px 4px 4px 4px;
+	overflow: hidden;
+	color: #fff;
+	text-align: center;	
+	font-size: 24px;
+}
+#box #menor{
+	width: 15%;
+}
+#form textarea{
+
+	resize: none;
+	height: 152px;
+	float: left;
+}
+#form label{
+	display: block;
+	margin: 10px 4% 0px;
+	font-style: bold;
+	font-size: 13px;
+	color: #fff;
+}
+
+.metade{
+	display: block;
+	float: RIGHT;
+	/* width: 49.9%; */
+}
+
+#form h2{
+	text-indent: 30px;
+	margin:15px;
+	font-style: bold;
+	color: white;
+	text-align: center;
+
+}
+
+#button_lc {
+	background:url(../img/c_bg.png)
+	font: bold 18px Arial, Helvetica, sans-serif;
+	width: 31%;
+	height: 47px;
+	margin-top: 50px;
+	cursor: pointer;
+	border-bottom-right-radius: 40px;
+	border-top-right-radius: 40px;
+}
+#button_lc:hover {
+	background:url(../img/ci_bg.png);
+	color:#FFF;
+}
+
+.frm{
+	width: 40%;
+	height: 30px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	margin-left: 50px;
+}
+
+.areatext{
+	margin-left: 50px;
+	width: 700px;
+
+}
+
+
+
+button, .button{font-size: 15px;transition: all .3s ease-in-out;position: relative;}
+button:hover, .button:hover, .solid-button:hover{background-position:center -4px;box-shadow:0 2px 2px rgba(0,0,0,.15)}
+button:focus, .button:focus, .solid-button:focus{color: #666;}
+button:active, .button:active, .solid-button:active{background-position:center -5px;box-shadow:0 3px 4px rgba(0,0,0,.15) inset;top: 1px;}
+.button.large, button.large {padding: 11px 19px;font-size: 17.5px;border-radius: 6px;}
+.button.mini, button.mini {padding: 1px 6px;font-size: 10.5px;border-radius: 3px;}
+
+
+#btncadqueixa{
+	width: 378px;
+	margin-top: 165px;
+	margin-left: 24px;
+}
+
+.alinhatexto{
+	text-align: right;
+}
+
+.loader{background-image:url(../img/loader.jpg); position: fixed;top:0px;right: 0;bottom: 0;z-index: 9999;left: 0;border-top:5px solid #FFF;}
+.loader .welcome{display: block;position: absolute;width: 320px;height: 180px;top: 20%;left: 50%;margin: -90px 0 0 -160px;color: #FFF;}
+.loader .welcome .phrase{display: block; font-size:40px; position: relative;text-align: center;}
+.loader .welcome .loading{letter-spacing: 27px;font-size: 11px;display: block;opacity: .5;}
+.teste{width: 320px; margin-left: 47%;}
+.logoloading{margin-top: 30%;}
+
+.mensagemQueixa {
+	position: absolute;
+	top: 102%;
+	color: rgb(255, 255, 255);
+	left: 5%;
+	color: rgba(139, 0, 0);
+	font-size: 20px;
+	font-family: 'Segoe UI';
+	text-align: right;
+}
+.mapacadastro{
+	background: #e0e0e0 url(../img/mapa2.png) no-repeat top center;
+	width: 400px;
+	height: 270px;
+	float: left;
+	margin-top: -300px;
+	margin-left: 384px;
+}
+.onlymap{
+	background: #000 url(../img/mapa2.png) no-repeat top center;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+
+
+
+
+.foto{
+	float: left;
+}
+.foto img{
+	height: auto;
+	width:49%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.dados{
+	width: 48%;
+	color: white;
+	float: right;
+	margin-left: 10px;
+}
+.descricao{
+	width: 48%;
+	height: 100%;
+	float: left;
+	color: white;
+	margin-left: 10px;
+}
+
+.form-1 input[type=email] {
+	width: 40%;
+	margin-left: 17px;
+}
+
+
+#mask {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:9000;
+	background-color:#000;
+	display:none;
+}
+
+#boxes .window {
+	position:absolute;
+	left:0;
+	top:0;
+	width:440px;
+	height:200px;
+	display:none;
+	z-index:9999;
+	padding:20px;
+}
+
+#boxes #dialog {
+	width:375px; 
+	height:203px;
+	padding:10px;
+	background-color:#ffffff;
+	z-index:9998;
+}
+
+#boxes #dialog1 {
+	width:375px; 
+	height:203px;
+	z-index:9997;
+	display: none;
+}
+
+#dialog1 .d-header {
+	background:url(../img/login/login-header.png) no-repeat 0 0 transparent; 
+	width:375px; 
+	height:150px;
+}
+
+#dialog1 .d-header input {
+	position:relative;
+	top:60px;
+	left:100px;
+	border:3px solid #cccccc;
+	height:22px;
+	width:200px;
+	font-size:15px;
+	padding:5px;
+	margin-top:4px;
+}
+
+#dialog1 .d-blank {
+	float:left;
+	background:url(../img/login/login-blank.png) no-repeat 0 0 transparent; 
+	width:267px; 
+	height:53px;
+}
+
+#dialog1 .d-login {
+	float:left;
+	width:108px; 
+	height:53px;
+}
+
+.close{display:block; text-align:right;}
+
+#form table tr td{
+	color:#fff;
+}
+
+#form table tr td { 
+	border-bottom: beige; 
+	border-bottom-style: dotted;
+	border-width: thin;
+	padding: 1.9px;
+} 
+#form table tr.dif td {
+	background: #eee; 
+} 
+
+#form small{
+	color:#fff;
+}
+.mensagemCadUser {
+	margin-left: 23%;
+	position: absolute;
+	top: 16.5%;
+	color: rgb(255, 0, 0);
+	background-color: rgba(0, 0, 0, 0.7);
+	font-size: 18px;
+	padding: 4px;
+	border-color: #fff;
+	border-top:20px;
+	font-family: 'Segoe UI'; 
+	font-weight: bold;
+	text-align: right;
+}
+.mensagemSucesso {
+	margin-left: 50%;
+	position: absolute;
+	top: 16.5%;
+	color: #038900;
+	font-size: 26px;
+	border-color: -moz-use-text-color #FFF #FFF;
+	border-top: 20px none;
+	font-family: "Segoe UI";
+	text-align: right;
+	z-index: 9999;;
+}
+.mensagemErro {
+	margin-left: 20.7%;
+	position: absolute;
+	top: 16.5%;
+	color: #FF0000;
+	background-color: rgba(0, 0, 0, 0.7);
+	font-size: 26px;
+	border-color: -moz-use-text-color #FFF #FFF;
+	border-top: 20px none;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	text-align: right;
+	z-index: 9999;
+	padding-left: 270px;
+	padding-right: 270px;
+}
+.mensagemLogin{
+	position: absolute;
+	top: 18%;
+}
+#form span b{
+	color:#fff;
+}
+#owl-demo{
+	margin-left: 100px;
+}
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.dadosQueixa{
+	display: block;
+	float: left;
+	width: 49.9%;
+}
+.dadosQueixa p{
+	margin-top: -10px;
+	text-indent: 30px;
+	color: white;
+	font-size: 15px;
+	
+}
+
+.textoDireita{
+	float: right;
+	margin-right: 10px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#vermelho{
+	color: #FFF;
+	font-weight: bold;
+	padding-right: 15px;
+	padding-left: 5px;
+}
+hr{
+	color:#fff;
+}
+.nomeuser{
+	color: #FF0000;
+}
+
+.titulo{
+	font-size:24px;
+	color:#fff;
+	font-weight:bold;
+	font-family:'Segoe UI';
+}
+
+.centralizadorQueixas{
+	width: 800px; height: 400px;
+	left:37%;
+	margin-left:-400px; /* metade da largura fictÃƒÂ­cia */
+	position:absolute;
+}
+
+.BTNindex{
+	margin-top: 10px;
+	width: 150px;
+	font-size: 20px;
+	font-weight: bold;
+	border-top-LEFT-radius: 20px; 
+	border-bottom-LEFT-radius: 20px;
+}
+.number{
+	position: absolute;
+	background-color: #F00;
+	border-radius: 30px;
+	width: 200px;
+	height: 25px;	
+	margin-left: 80%;
+	margin-top: -20px;
+	text-decoration: none;
+	color: #FFF;
+	font-weight: bold;
+}
+
+.respostas{
+	width: 100%;
+	background-color: rgba(255,255, 255, 0.55);
+	border-radius: 30px;
+	height: 25px;
+}
+.respostas em {
+	float: left;
+	padding-left: 20px;
+}
+
+#formRespostas{	
+	background-color: rgba(0, 0, 0, 0.85);
+	width: 100%;
+	height: 300px;
+	border-radius: 4px 4px 4px 4px;
+	overflow: hidden;
+	margin-top: -21px;
+	padding-top: 29px;
+}

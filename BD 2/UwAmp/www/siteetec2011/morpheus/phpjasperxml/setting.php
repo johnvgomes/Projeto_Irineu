@@ -1,0 +1,9 @@
+<?php
+$server="localhost";
+$db="morpheus";
+$user="root";
+$pass="pedreira";
+$version="0.8";
+$pgport=5432;
+$pchartfolder="./class/pchart2";
+?>

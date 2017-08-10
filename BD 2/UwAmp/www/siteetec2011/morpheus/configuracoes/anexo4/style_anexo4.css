@@ -1,0 +1,117 @@
+body{
+	font-size: 1.2em;
+}
+table th, td{
+	border: solid 1px #CECECE;
+	text-align: center;
+}
+.input-micro{
+	width: 30px;
+	text-align: center;
+	font-size: 8px;
+
+}
+.cabecalho_aulas{
+	height: 80px;
+	width: 40px;
+}
+.cabecalho_disciplinas{
+	width: 200px;
+}
+th,td{
+	font-size: 10px;
+}
+
+.conteudo{
+	font-size: 14px;
+	text-align: center;
+}
+.vermelho {
+	color: red;
+	font-weight: bold;
+}
+.mencao{
+	cursor: pointer;
+}
+.centro{
+	text-align: center;
+}
+.boxTitulo{
+	margin: 10px 50px 10px 50px;
+	text-align: center;
+	padding: 5px;
+	 border: 4px double #000000;
+}
+.boxDireita{
+	margin-top: 10px;
+	width: auto;
+	float: left;
+	text-align: center;
+	padding: 5px;
+	border: 4px double #000000;	
+}
+.boxEsquerda{
+	margin-top: 10px;
+	margin-left: 50px; 
+	float: left;
+	width: auto;
+	background-color: #DEDEDE;
+	text-align: center;
+	padding: 5px;
+	border: 4px double #000000;	
+}
+
+.tableNotas{
+	width: 90%;
+	margin: 30px 50px 10px 50px ;
+	border: 4px double #000000;
+
+}
+
+.tableNotas td{
+	border: solid 1px;
+
+}
+.tableFaltas{
+	width: 90%;
+	margin: 30px 50px 10px 50px ;
+	border: 4px double #000000;
+
+}
+
+.tableFaltas td{
+	width: 25%;
+	height: 40px;
+	text-align: center;
+	border: solid 1px;
+
+}
+
+.assinatura{
+	width: 500px;
+	margin:0 auto;
+	text-align: center;
+	margin-top: 0px;
+	border-top: solid 1px;
+}
+
+
+.vertical {
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+}
+
+.total{
+	font-size: 25px;
+}
+
+.subtotal{
+	font-size: 18px;
+}
+
+.quebraPagina {
+	page-break-after: always;
+}

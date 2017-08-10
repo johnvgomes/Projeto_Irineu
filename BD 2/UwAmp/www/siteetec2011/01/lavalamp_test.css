@@ -1,0 +1,45 @@
+#menu_lavaLamp {
+	width: 1000px;
+	clear:both;
+}
+.lavaLampNoImage {
+	position: relative;
+	height: 33px;
+	width: 1000px;
+	padding: 0px;
+	margin: 1px 0px;
+	overflow: hidden;
+	border: 0px solid  #CCC;
+        }
+.lavaLampNoImage li {
+    float: left;
+    list-style: none;
+}
+.lavaLampNoImage li.back {
+	background-color: black;
+	width: 9px;
+	height: 30px;
+	z-index: 8;
+	position: absolute;
+}
+.lavaLampNoImage li a {
+	font: 16px 'UniversLightCondensedRegular', Arial, Verdana;
+
+	text-decoration: none;
+	color: #FFF;
+	outline: none;
+	text-align: center;
+	top: 2px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	z-index: 10;
+	display: block;
+	float: left;
+	height: 25px;
+	position: relative;
+	overflow: hidden;
+	margin: 5px 33px;
+}
+.lavaLampNoImage li a:hover, .lavaLampNoImage li a:active, .lavaLampNoImage li a:visited {
+	 border: none;
+}                    

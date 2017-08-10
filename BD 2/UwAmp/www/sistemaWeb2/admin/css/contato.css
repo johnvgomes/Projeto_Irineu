@@ -1,0 +1,25 @@
+root { 
+    display: block;
+}
+
+.login {
+    margin:0 auto;
+    width:400px;
+    background: dodgerblue;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: 2px dashed royalblue;
+    color: white;
+    font-family: verdana;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+form input[type="submit"]{
+    
+}
+

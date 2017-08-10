@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: verdana;
+    font-size: 90%;
+    overflow-x: hidden;
+}
+
+root { 
+    display: block;
+}
+
+.container{
+    margin: 2% auto;
+
+    width: 80%;
+    min-height: 100%;
+}
+
+.content{
+    width: 72%;
+    float: right;
+    padding: 0 0 0 1%;
+    text-align: justify;
+    text-indent: 2%;
+    margin: 0 0 20% 0;
+
+    /* topo - direita - baixo - esquerda // sentido horário */
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #ccc;
+    height: 150px;
+}

@@ -1,0 +1,182 @@
+#titulo_centro_conteudo{
+	
+	height:50px;
+	width:100%;
+	background: #8A008A;
+	position:relative;
+	;
+	}
+	
+	.titulo_conteudo_text {
+	
+	font-size:2.8em; /*16 pixels*/
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#ffffff;
+	position:relative;
+	text-align:center;
+}
+
+ .meus_grupos_main{
+		 
+	top: 25%;
+	left:0%;
+	height:160px;
+	width:700px;
+	margin:0 auto;
+	margin-top:25px;
+	margin-bottom:25px; 
+	background:rgba(152,44,143,0.6);
+	position: relative;
+	border-bottom: 0.35em dashed #ccc;
+	border-left: 0.35em dashed #ccc;
+	border-right: 0.35em dashed #ccc;
+	border-top: 0.35em dashed #ccc;
+		 }
+	
+		 .img_do_meus_grupos{
+		 
+	top: 12%;
+	left:5%;
+	height:130px;
+	width:130px;
+	background:rgba(80,0,255,0.3);
+	position: relative;
+	border-bottom: 0.15em solid #ccc;
+	border-left: 0.15em solid #ccc;
+	border-right: 0.15em solid #ccc;
+	border-top: 0.15em solid #ccc;
+		 }
+	
+#titulo_do_meus_grupos{
+	top: 6%;
+	left:30%;
+	height:50px;
+	width:400px;
+	position: absolute;
+	}
+		
+.titulo_do_meus_grupos_text {
+	font-size:2.3em; /*16 pixels*/
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	color:#ffffff;
+	top:0%;
+	position:relative;
+}
+
+#caixa_descricao_do_meus_grupos{
+	top: 35%;
+	left:30%;
+	height:90px;
+	width:400px;
+	position: absolute;
+	border-bottom: 0.15em dashed #ccc;
+	border-left: 0.15em dashed #ccc;
+	border-right: 0.15em dashed #ccc;
+	border-top: 0.15em dashed #ccc;
+		}
+		
+	
+	#texto_descricao_sobre{
+	top: 0%;
+	left:0%;
+	height:25px;
+	width:120px;
+	position: absolute;
+	border-bottom: 0.15em dashed #ccc;
+	border-right: 0.15em dashed #ccc;
+	
+	}
+	
+	.descricao_sobre_text {
+	text-align:center;
+	font-size:1.3em; /*16 pixels*/
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	color:#ffffff;
+	margin:0 auto;
+	top:0%;
+	position:relative;
+		}
+		
+	#texto_descricao_tipo{
+	top: 70%;
+	left:70%;
+	height:25px;
+	width:120px;
+	position: absolute;
+	border-top: 0.15em dashed #ccc;
+	border-left: 0.15em dashed #ccc;
+	
+	}
+	
+	.descricao_tipo_text {
+	text-align:center;
+	font-size:1.3em; /*16 pixels*/
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	color:#ffffff;
+	margin:0 auto;
+	top:0%;
+	position:relative;
+		}
+		
+	#texto_descricao_meus_grupos{
+	top: 35%;
+	left:6%;
+	height:30px;
+	width:100%;
+	position: absolute;
+
+	}
+	
+	.descricao_meus_grupos_text {
+	text-align:left;
+	font-size:1.2em; /*16 pixels*/
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	color:#ffffff;
+	margin:0 auto;
+	top:0%;
+	position:relative;
+		}
+		
+	#texto_descricao_estilo{
+	top: 65%;
+	left:6%;
+	height:30px;
+	width:100%;
+	position: absolute;
+	}
+	
+	.descricao_estilo_text {
+	text-align:left;
+	font-size:1em; /*16 pixels*/
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	color:#ffffff;
+	margin:0 auto;
+	top:0%;
+	position:relative;
+		}
+	#texto_descricao_idade_recomendada{
+	top: 65%;
+	left:25%;
+	height:30px;
+	width:100%;
+	position: absolute;
+	}
+	
+	.descricao_idade_recomendada_text {
+	text-align:left;
+	font-size:1em; /*16 pixels*/
+	font-family: 'Terminal Dosis', Arial, sans-serif;
+	color:#ffffff;
+	margin:0 auto;
+	top:0%;
+	position:relative;
+		}
+	
+	.img_meus_grupos{
+			width:100%;
+			height:100%;
+			position:relative;
+			border:0;
+			background:url(../imagem/favorito.png)
+			}
+	

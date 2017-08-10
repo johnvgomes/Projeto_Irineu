@@ -1,0 +1,519 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font: 90% verdana;
+    background: #eee;
+}
+
+.starti_texto{
+    text-align: center;
+    alignment-adjust:auto;
+    font-size: 1.05em;
+    margin-bottom: 1em;
+    color: purple;
+    background: #6d00bc;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding: 0.5% 3% 0.5% 3%;
+
+}
+div#imagem_user{
+
+
+    background:url(../imagem/blue-user-icon.png) no-repeat #FFFFFF;
+    width: 80%;
+    height: 44%;
+    margin: auto;
+    position: relative;
+    color: red;
+}
+
+
+div#cancelar_conta{
+
+    width: 80%;
+    margin: 0 auto;
+}
+.geral{
+
+    width: 30%;
+    left: 67.5%;       
+    background: green; 
+    position: absolute;
+}
+.logo{
+    top: 41%;
+    left: 13%;
+    height: 26%;
+    width: 13%;
+    margin: auto;
+    position: absolute;
+}
+
+div#comentario_text{
+
+    width: 1080px;
+    top:5%;
+    left:0;
+    position: absolute;
+
+
+}
+div#comentario_text2{
+
+
+    width: 45%;
+    margin: auto;
+    top:45%;
+    left:25%;
+    position: absolute;
+
+}
+.apenas_uma_conta_text{
+
+    text-align:center;
+    font-size:60px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#cccccc;
+    padding-top:5px
+
+}
+
+
+.organize_text{
+
+    text-align:center;
+    font-size:24px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#cccccc;
+    padding-top:5px
+}
+
+
+.content{
+
+    width: 100%;
+    padding: 2%;
+    background: #ffffff;
+    position: relative;
+    border-top: 0.1em solid #ccc;
+    border-bottom: 1em solid #ccc;
+    border-left: 0.1em solid #ccc;
+    border-right:  0.1em solid #ccc;
+}
+
+
+input, select{
+    padding: 0.7%;
+    margin-top: 0.5%;
+}
+input[type="text"],input[type="email"],input[type="number"]{
+    //width: 30%;
+}
+select{
+    width: 32.5%;
+}
+input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    height: 3em;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.05em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background: #39c;
+    border: 0.1em solid #ccc;
+    color: white;
+    padding: 0.5% 3% 0.5% 3%;
+
+}
+input[type="password"] {
+    width: 100%;
+    height:45px;
+    text-align: center;
+    font-size: 1.05em;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-left:10px;
+    padding-bottom:5px ; 
+    margin-top:5%;
+
+}
+input[type="email"] {
+    width: 100%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-top:5%;
+
+}
+input[name="nome"] {
+    width: 48%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-right: 5px;
+    margin-top:5%;
+
+}
+
+input[name="sobrenome"] {
+    width: 48%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-left: 5px;
+    margin-top:5%;
+}
+
+input[name="num_celular"] {
+    width: 100%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-top:5%;
+
+}
+
+select[name="dia_nasc"] {
+    width: 30%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-left: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+
+}
+
+select[name="mes_nasc"] {
+    width: 30%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-right:5px;
+    margin-left: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+select[name="ano_nasc"] {
+    width: 30%;
+    height:45px;
+    float:left; 
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1.5em;
+    color: #808080;
+    padding-bottom:5px ; 
+    padding-left:10px;
+    margin-left: 5px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+p,h1,h2,h3,h4{color:#077A10}
+
+
+div#site{
+    background:#ffffff;
+    width: 100%;
+    top:1.5%;
+    left: 0;
+    position: relative;
+
+}
+
+
+div#conteudo{
+    background:#ffffff;
+
+    width:80%;
+    margin: auto;
+    margin-top:5px;
+    margin-bottom:5px;
+    position:relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.conteudo{text-align:center;
+          font-size:60px;
+          font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+          color:#CCCCCC;
+          padding-top:5px
+}
+
+.format{
+    text-align:center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400px;
+    line-height: 20px;
+    color:#808080;
+    padding-top:5px;
+}
+
+.cancelarconta_text{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#6d00bc;
+    padding-top:5px
+}
+
+
+a{
+    text-decoration:none;
+    color:#6d00bc;
+}
+
+
+div#login_incorreto {
+    position:absolute ;
+    margin-left: 5px;
+    margin-right: 25px;
+    top:37.5%;
+    float:left;
+    background-color:#39c;
+    border-top:10px solid #39c;
+    border-left:10px solid transparent;
+    background-clip: padding-box;
+    padding: 0 10px 10px 10px;
+}
+
+
+.login_incorreto{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+
+}
+
+.login_incorreto_verifique{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+
+}
+
+div#cadastro_sucess {
+
+    background:url(../imagem/cadastrosucess.png) no-repeat ;
+    width: 360px;
+    height:85px;
+    margin: auto;
+    top:82%;
+    left:35%;
+    position: absolute;
+
+
+}
+
+
+.cadastro_sucess_parabens{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:15px;
+    padding-left: 50px;
+
+}
+
+.cadastro_sucess{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+
+
+}
+
+div#cadastro_fail {
+
+    background:url(../imagem/cadastrofail.png) no-repeat ;
+    width: 360px;
+    height:85px;
+    margin: auto;
+    top:82%;
+    left:35%;
+    position: absolute;
+
+
+}
+
+
+.cadastro_fail_sorry{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:15px;
+    padding-left: 50px;
+
+}
+
+.cadastro_fail{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+
+
+}
+
+div#email_incorreto {
+    position:absolute ;
+    margin-left: 5px;
+    margin-right: 25px;
+    left: 42%;
+    top:37.5%;
+    float:left;
+    background-color:#39c;
+    border-top:10px solid #39c;
+    border-right:10px solid transparent;
+    background-clip: padding-box;
+    padding: 0 10px 10px 10px;
+}
+
+.email_incorreto{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+
+}
+
+.email_incorreto_verifique{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+
+}
+
+div#senha_incorreto {
+    position:absolute ;
+    margin-left: 5px;
+    margin-right: 25px;
+    left: 27%;
+    top:47.5%;
+    float:left;
+    background-color:#39c;
+    border-top:10px solid #39c;
+    border-right:10px solid transparent;
+    background-clip: padding-box;
+    padding: 0 10px 10px 10px;
+}
+
+.senha_incorreto{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+
+}
+
+.senha_incorreto_verifique{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+
+}
+
+div#data_incorreto {
+    position:absolute ;
+    margin-left: 5px;
+    margin-right: 25px;
+    left: 43.5%;
+    top:67.5%;
+    float:left;
+    background-color:#39c;
+    border-top:10px solid #39c;
+    border-right:10px solid transparent;
+    background-clip: padding-box;
+    padding: 0 10px 10px 10px;
+}
+
+.data_incorreto{
+    text-align:center;
+    font-size:22px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+
+}
+
+.data_incorreto_verifique{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    color:#ffffff;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+
+}

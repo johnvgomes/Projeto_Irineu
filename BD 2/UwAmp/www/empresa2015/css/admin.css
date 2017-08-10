@@ -1,0 +1,39 @@
+input{
+    border: 1px solid #49505a;
+    border-radius: 5px;
+    font-family: verdana;
+    padding: 2% 2% 2% 0;
+    margin: 2%;
+}
+
+input[type=submit] {
+    background: #49505a;
+    color: white;
+    font-size: 90%;    
+    padding: 3%;
+    float: right;
+}
+
+h3{
+    margin: 0 0 3% 0;
+}
+
+.linhaimpar td, .linhapar td{
+    padding: 1%;
+}
+
+.linhaimpar{
+    background: #ddd;
+}
+
+.coluna1{
+    width: 30px;
+}
+
+.coluna2{
+    width: 200px;
+}
+
+.coluna3{
+    width: 130px;
+}
