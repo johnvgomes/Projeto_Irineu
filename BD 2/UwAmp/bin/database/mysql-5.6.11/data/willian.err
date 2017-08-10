@@ -1,0 +1,799 @@
+2017-08-09 09:15:26 1188 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-09 09:15:26 1188 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-09 09:15:26 1188 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-09 09:15:26 1188 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-09 09:15:26 1188 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-09 09:15:26 1188 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-09 09:15:26 1188 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-09 09:15:26 1188 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-09 09:15:26 1188 [Note] InnoDB: The log sequence numbers 6213758 and 6213758 in ibdata files do not match the log sequence number 6214604 in the ib_logfiles!
+2017-08-09 09:15:26 1188 [Note] InnoDB: Database was not shutdown normally!
+2017-08-09 09:15:26 1188 [Note] InnoDB: Starting crash recovery.
+2017-08-09 09:15:26 1188 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-08-09 09:15:27 1188 [Note] InnoDB: Restoring possible half-written data pages 
+2017-08-09 09:15:27 1188 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table doce_feitico/acai in the InnoDB data dictionary has tablespace id 14, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table doce_feitico/produtos in the InnoDB data dictionary has tablespace id 12, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table doce_feitico/salada_de_frutas in the InnoDB data dictionary has tablespace id 15, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table drogaria/fabricantes in the InnoDB data dictionary has tablespace id 487, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table drogaria/funcionarios in the InnoDB data dictionary has tablespace id 488, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table drogaria/itens in the InnoDB data dictionary has tablespace id 493, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table drogaria/produtos in the InnoDB data dictionary has tablespace id 494, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table drogaria/vendas in the InnoDB data dictionary has tablespace id 495, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table etec/login in the InnoDB data dictionary has tablespace id 10, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table gadi/login in the InnoDB data dictionary has tablespace id 477, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table johnvini/departamento in the InnoDB data dictionary has tablespace id 505, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table mferraz/arquivos_portifolio in the InnoDB data dictionary has tablespace id 6, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table mferraz/login in the InnoDB data dictionary has tablespace id 7, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Table mferraz/pagina in the InnoDB data dictionary has tablespace id 8, but tablespace with that id or name does not exist. Have you deleted or moved .ibd files? This may also be a table created with CREATE TEMPORARY TABLE whose .ibd and .frm files MySQL automatically removed, but the table still exists in the InnoDB internal data dictionary.
+InnoDB: Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html
+InnoDB: for how to resolve the issue.
+2017-08-09 09:15:27 1188 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-09 09:15:27 1188 [Note] InnoDB: Waiting for purge to start
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."vendas"' in the cache. Attempting to load the tablespace with space id 495.
+2017-08-09 09:15:27 381c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."produtos"' in the cache. Attempting to load the tablespace with space id 494.
+2017-08-09 09:15:27 381c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Failed to find tablespace for table '"gadi"."login"' in the cache. Attempting to load the tablespace with space id 477.
+2017-08-09 09:15:27 381c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Failed to find tablespace for table '"etec"."login"' in the cache. Attempting to load the tablespace with space id 10.
+2017-08-09 09:15:27 381c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:15:27 1188 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:15:27 1188 [Note] InnoDB: 5.6.11 started; log sequence number 6214604
+C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: File '.\mysql-bin.000471' not found (Errcode: 22 - Invalid argument)
+2017-08-09 09:15:27 1188 [ERROR] Failed to open log (file '.\mysql-bin.000471', errno 22)
+2017-08-09 09:15:27 1188 [ERROR] Could not open log file
+2017-08-09 09:15:27 1188 [ERROR] Can't init tc log
+2017-08-09 09:15:27 1188 [ERROR] Aborting
+
+2017-08-09 09:15:27 1188 [Note] Binlog end
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'partition'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_CMP'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'INNODB_TRX'
+2017-08-09 09:15:27 1188 [Note] Shutting down plugin 'InnoDB'
+2017-08-09 09:15:27 1188 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-09 09:15:27 1188 [Note] InnoDB: Starting shutdown...
+2017-08-09 09:15:29 1188 [Note] InnoDB: Shutdown completed; log sequence number 6214614
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'BLACKHOLE'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'ARCHIVE'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'MyISAM'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'MEMORY'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'CSV'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'sha256_password'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'mysql_old_password'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'mysql_native_password'
+2017-08-09 09:15:29 1188 [Note] Shutting down plugin 'binlog'
+2017-08-09 09:15:29 1188 [Note] C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+
+2017-08-09 09:16:22 2000 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-09 09:16:22 2000 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-09 09:16:22 2000 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-09 09:16:22 2000 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-09 09:16:22 2000 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-09 09:16:22 2000 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-09 09:16:22 2000 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-09 09:16:22 2000 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/acai'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."acai"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."produtos"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/salada_de_frutas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."salada_de_frutas"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/fabricantes'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."fabricantes"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/funcionarios'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."funcionarios"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/itens'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."itens"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."produtos"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."vendas"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"etec"."login"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"gadi"."login"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'johnvini/departamento'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"johnvini"."departamento"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/arquivos_portifolio'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."arquivos_portifolio"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."login"', ignored.
+2017-08-09 09:16:22 1b0  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/pagina'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."pagina"', ignored.
+2017-08-09 09:16:22 2000 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-09 09:16:22 2000 [Note] InnoDB: Waiting for purge to start
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."vendas"' in the cache. Attempting to load the tablespace with space id 495.
+2017-08-09 09:16:22 368c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."produtos"' in the cache. Attempting to load the tablespace with space id 494.
+2017-08-09 09:16:22 368c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Failed to find tablespace for table '"gadi"."login"' in the cache. Attempting to load the tablespace with space id 477.
+2017-08-09 09:16:22 368c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Failed to find tablespace for table '"etec"."login"' in the cache. Attempting to load the tablespace with space id 10.
+2017-08-09 09:16:22 368c  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:22 2000 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:22 2000 [Note] InnoDB: 5.6.11 started; log sequence number 6214614
+C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: File '.\mysql-bin.000471' not found (Errcode: 22 - Invalid argument)
+2017-08-09 09:16:22 2000 [ERROR] Failed to open log (file '.\mysql-bin.000471', errno 22)
+2017-08-09 09:16:22 2000 [ERROR] Could not open log file
+2017-08-09 09:16:22 2000 [ERROR] Can't init tc log
+2017-08-09 09:16:22 2000 [ERROR] Aborting
+
+2017-08-09 09:16:22 2000 [Note] Binlog end
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'partition'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_CMP'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'INNODB_TRX'
+2017-08-09 09:16:22 2000 [Note] Shutting down plugin 'InnoDB'
+2017-08-09 09:16:22 2000 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-09 09:16:22 2000 [Note] InnoDB: Starting shutdown...
+2017-08-09 09:16:24 2000 [Note] InnoDB: Shutdown completed; log sequence number 6214624
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'BLACKHOLE'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'ARCHIVE'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'MyISAM'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'MEMORY'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'CSV'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'sha256_password'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'mysql_old_password'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'mysql_native_password'
+2017-08-09 09:16:24 2000 [Note] Shutting down plugin 'binlog'
+2017-08-09 09:16:24 2000 [Note] C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+
+2017-08-09 09:16:45 10468 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-09 09:16:45 10468 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-09 09:16:45 10468 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-09 09:16:45 10468 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-09 09:16:45 10468 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-09 09:16:45 10468 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-09 09:16:45 10468 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-09 09:16:45 10468 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/acai'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."acai"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."produtos"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/salada_de_frutas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."salada_de_frutas"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/fabricantes'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."fabricantes"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/funcionarios'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."funcionarios"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/itens'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."itens"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."produtos"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."vendas"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"etec"."login"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"gadi"."login"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'johnvini/departamento'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"johnvini"."departamento"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/arquivos_portifolio'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."arquivos_portifolio"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."login"', ignored.
+2017-08-09 09:16:45 2fd8  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/pagina'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."pagina"', ignored.
+2017-08-09 09:16:45 10468 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-09 09:16:45 10468 [Note] InnoDB: Waiting for purge to start
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."vendas"' in the cache. Attempting to load the tablespace with space id 495.
+2017-08-09 09:16:45 1368  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."produtos"' in the cache. Attempting to load the tablespace with space id 494.
+2017-08-09 09:16:45 1368  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Failed to find tablespace for table '"gadi"."login"' in the cache. Attempting to load the tablespace with space id 477.
+2017-08-09 09:16:45 1368  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Failed to find tablespace for table '"etec"."login"' in the cache. Attempting to load the tablespace with space id 10.
+2017-08-09 09:16:45 1368  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:16:45 10468 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:16:45 10468 [Note] InnoDB: 5.6.11 started; log sequence number 6214624
+C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: File '.\mysql-bin.000471' not found (Errcode: 22 - Invalid argument)
+2017-08-09 09:16:45 10468 [ERROR] Failed to open log (file '.\mysql-bin.000471', errno 22)
+2017-08-09 09:16:45 10468 [ERROR] Could not open log file
+2017-08-09 09:16:45 10468 [ERROR] Can't init tc log
+2017-08-09 09:16:45 10468 [ERROR] Aborting
+
+2017-08-09 09:16:45 10468 [Note] Binlog end
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'partition'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_CMP'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'INNODB_TRX'
+2017-08-09 09:16:45 10468 [Note] Shutting down plugin 'InnoDB'
+2017-08-09 09:16:45 10468 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-09 09:16:45 10468 [Note] InnoDB: Starting shutdown...
+2017-08-09 09:16:46 10468 [Note] InnoDB: Shutdown completed; log sequence number 6214634
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'BLACKHOLE'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'ARCHIVE'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'MyISAM'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'MEMORY'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'CSV'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'sha256_password'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'mysql_old_password'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'mysql_native_password'
+2017-08-09 09:16:46 10468 [Note] Shutting down plugin 'binlog'
+2017-08-09 09:16:46 10468 [Note] C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+
+2017-08-09 09:17:13 1744 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-09 09:17:13 1744 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-09 09:17:13 1744 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-09 09:17:13 1744 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-09 09:17:13 1744 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-09 09:17:13 1744 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-09 09:17:13 1744 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-09 09:17:13 1744 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/acai'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."acai"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."produtos"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/salada_de_frutas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."salada_de_frutas"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/fabricantes'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."fabricantes"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/funcionarios'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."funcionarios"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/itens'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."itens"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."produtos"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."vendas"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"etec"."login"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"gadi"."login"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'johnvini/departamento'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"johnvini"."departamento"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/arquivos_portifolio'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."arquivos_portifolio"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."login"', ignored.
+2017-08-09 09:17:14 3cc4  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/pagina'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."pagina"', ignored.
+2017-08-09 09:17:14 1744 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-09 09:17:14 1744 [Note] InnoDB: Waiting for purge to start
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."vendas"' in the cache. Attempting to load the tablespace with space id 495.
+2017-08-09 09:17:14 37cc  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."produtos"' in the cache. Attempting to load the tablespace with space id 494.
+2017-08-09 09:17:14 37cc  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Failed to find tablespace for table '"gadi"."login"' in the cache. Attempting to load the tablespace with space id 477.
+2017-08-09 09:17:14 37cc  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Failed to find tablespace for table '"etec"."login"' in the cache. Attempting to load the tablespace with space id 10.
+2017-08-09 09:17:14 37cc  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:17:14 1744 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:17:14 1744 [Note] InnoDB: 5.6.11 started; log sequence number 6214634
+C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: File '.\mysql-bin.000471' not found (Errcode: 22 - Invalid argument)
+2017-08-09 09:17:14 1744 [ERROR] Failed to open log (file '.\mysql-bin.000471', errno 22)
+2017-08-09 09:17:14 1744 [ERROR] Could not open log file
+2017-08-09 09:17:14 1744 [ERROR] Can't init tc log
+2017-08-09 09:17:14 1744 [ERROR] Aborting
+
+2017-08-09 09:17:14 1744 [Note] Binlog end
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'partition'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_CMP'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'INNODB_TRX'
+2017-08-09 09:17:14 1744 [Note] Shutting down plugin 'InnoDB'
+2017-08-09 09:17:14 1744 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-09 09:17:14 1744 [Note] InnoDB: Starting shutdown...
+2017-08-09 09:17:15 1744 [Note] InnoDB: Shutdown completed; log sequence number 6214644
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'BLACKHOLE'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'ARCHIVE'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'MyISAM'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'MEMORY'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'CSV'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'sha256_password'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'mysql_old_password'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'mysql_native_password'
+2017-08-09 09:17:15 1744 [Note] Shutting down plugin 'binlog'
+2017-08-09 09:17:15 1744 [Note] C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+
+2017-08-09 09:18:13 16220 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-09 09:18:13 16220 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-09 09:18:13 16220 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-09 09:18:13 16220 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-09 09:18:13 16220 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-09 09:18:13 16220 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-09 09:18:14 16220 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-09 09:18:14 16220 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/acai'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."acai"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."produtos"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'doce_feitico/salada_de_frutas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"doce_feitico"."salada_de_frutas"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/fabricantes'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."fabricantes"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/funcionarios'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."funcionarios"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/itens'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."itens"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."produtos"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"drogaria"."vendas"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"etec"."login"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"gadi"."login"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'johnvini/departamento'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"johnvini"."departamento"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/arquivos_portifolio'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."arquivos_portifolio"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."login"', ignored.
+2017-08-09 09:18:14 818  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'mferraz/pagina'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Tablespace open failed for '"mferraz"."pagina"', ignored.
+2017-08-09 09:18:14 16220 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-09 09:18:14 16220 [Note] InnoDB: Waiting for purge to start
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."vendas"' in the cache. Attempting to load the tablespace with space id 495.
+2017-08-09 09:18:14 3d50  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/vendas'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Failed to find tablespace for table '"drogaria"."produtos"' in the cache. Attempting to load the tablespace with space id 494.
+2017-08-09 09:18:14 3d50  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'drogaria/produtos'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Failed to find tablespace for table '"gadi"."login"' in the cache. Attempting to load the tablespace with space id 477.
+2017-08-09 09:18:14 3d50  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'gadi/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Failed to find tablespace for table '"etec"."login"' in the cache. Attempting to load the tablespace with space id 10.
+2017-08-09 09:18:14 3d50  InnoDB: Operating system error number 3 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+2017-08-09 09:18:14 16220 [ERROR] InnoDB: Could not find a valid tablespace file for 'etec/login'. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting-datadict.html for how to resolve the issue.
+2017-08-09 09:18:14 16220 [Note] InnoDB: 5.6.11 started; log sequence number 6214644
+C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: File '.\mysql-bin.000471' not found (Errcode: 22 - Invalid argument)
+2017-08-09 09:18:14 16220 [ERROR] Failed to open log (file '.\mysql-bin.000471', errno 22)
+2017-08-09 09:18:14 16220 [ERROR] Could not open log file
+2017-08-09 09:18:14 16220 [ERROR] Can't init tc log
+2017-08-09 09:18:14 16220 [ERROR] Aborting
+
+2017-08-09 09:18:14 16220 [Note] Binlog end
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'partition'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_METRICS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_CMP'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_LOCKS'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'INNODB_TRX'
+2017-08-09 09:18:14 16220 [Note] Shutting down plugin 'InnoDB'
+2017-08-09 09:18:14 16220 [Note] InnoDB: FTS optimize thread exiting.
+2017-08-09 09:18:14 16220 [Note] InnoDB: Starting shutdown...
+2017-08-09 09:18:15 16220 [Note] InnoDB: Shutdown completed; log sequence number 6214670
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'BLACKHOLE'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'ARCHIVE'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'MRG_MYISAM'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'MyISAM'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'MEMORY'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'CSV'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'sha256_password'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'mysql_old_password'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'mysql_native_password'
+2017-08-09 09:18:15 16220 [Note] Shutting down plugin 'binlog'
+2017-08-09 09:18:15 16220 [Note] C:\Users\willi\Desktop\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: Shutdown complete
+
