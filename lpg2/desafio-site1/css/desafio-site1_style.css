@@ -1,0 +1,222 @@
+* {
+	margin:0;
+	padding:0;
+	border:0
+}
+body {
+	background:#cbcbcb
+}
+
+
+body .container > nav {
+	background-color:#7198cb;
+    width: 100%;
+    float: left;	
+	
+}
+
+section {
+ 	background-color:#cbcbcb;
+	border-radius: 10px;
+    width: 100%;
+    float: left;
+}	  
+
+
+.section{
+ 	background-color:#cbcbcb;
+	border-radius: 10px;
+    width: 96%;
+    float: left;
+	margin:2%;
+
+	
+}
+
+
+  
+.titulo {
+	
+	text-align:center;
+	float:left;
+	font-size:48px;	
+	font-style: normal;
+	font-variant: normal;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#FFF;
+	margin: 20px 0 0 0;
+	padding: 35px 25px 0 ;
+}
+
+
+  
+.subtitulo {
+	text-align:center;
+	float:right;
+	font-size:30px;	
+	font-style: normal;
+	font-variant: normal;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#FFF;
+	margin: 20px 0 0 0;
+	padding: 65px 25px 0 ;
+}
+
+div#imgmemecab {	
+	background:url(../img/20.jpg) no-repeat;
+	border-radius: 10px;
+	height: 50px;
+	width: 50px;
+	margin: 20px 2% 0;
+	float: left;
+	display: block;
+	border-radius: 50px;
+}
+
+.cabecario {
+	background-color:#333b42;
+	width:100%;
+	float: left;
+	padding-bottom: 20px;
+	
+	
+}
+
+
+header h1, header h3 {
+    color: #FFF;
+}
+
+header h1 {
+    margin: 30px 20px 10px;
+}
+header h3 {
+    text-align: right;
+    margin-right: 20px;
+}
+
+header nav {
+	    width: 100%;
+}
+
+
+header nav ul {
+        list-style: none;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+}
+
+
+header nav ul li {
+        display: inline-block;
+	 
+		
+}
+
+
+header nav ul li a {
+        text-decoration: none;
+		padding: 13px 45px;
+	
+}
+
+
+header nav ul li a:hover {
+       background: #2C3941;
+		
+}
+
+.navegation {
+	text-align:center;
+	font-size:22px;
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#666;
+	padding: 12px;
+}
+
+body .container > footer {
+	
+	
+	clear: both;
+	float: left;
+	background-color:#333b42;
+	width:100%;
+	float: left;
+	padding-bottom: 20px;
+	margin:2% auto; 
+	
+      }
+	  
+	  
+.footer {
+	margin-top:20px;
+	text-align:center;
+	font-size:22px;
+	font-family:'iweb-light', Helvetica, sans-serif;
+	color:#fff;
+	
+}
+
+.container {
+  width: 960px;
+  display: block;
+  margin: 1% auto;
+}
+
+div#navegate{
+	background-color:#7198cb;
+    width: 100%;
+    float: left;	
+	margin: 1% auto ;
+}
+
+
+
+.corpo-site{
+	
+	text-align:center;
+	float:left;
+	font-size:24px;	
+	font-style: normal;
+	font-variant: normal;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#FFF;
+	
+}
+
+section article h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: #212121;
+    font-size: 45px;
+}
+
+section article .content img {
+    float: left;
+    width: 200px;
+    border: 1px solid #FFF;
+	padding: 8px;
+    margin: 0 30px 6px 0;
+}
+
+.article-text{
+	
+	text-align:justify;
+	font-size:18px;	
+	line-height: 1.5;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#333;
+	margin-bottom:18px;
+	
+}
+
+
+.footer-article-text{
+	
+	text-align:right;
+	font-size:14px;	
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#333;
+	
+}
