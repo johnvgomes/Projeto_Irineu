@@ -1,0 +1,8 @@
+Como candidato quero me inscrever em um processo seletivo para poder participar no dia da prova
+
+Regras:
+    Um candidato deve escolher um curso como primeira opção
+    Um candidato pode escolher um curso como segunda opção
+    Um candidato pode escolher uma cota para concorrer a vaga pretendida, as cotas estão todas especificadas no arquivo do edital
+    Um candidato/pessoa pode se inscrever em quantos processos seletivos ele quiser
+    A inscrição deve guardar a data e hora que foi realizada    

@@ -1,0 +1,4 @@
+Como financeiro quero saber quando e quem pagou a taxa de inscrição para ter controle dos usuários que podem ser homologados
+
+Regras:
+    O sistema deve armazernar a data que cada pessoa pagou por cada uma de suas inscrições

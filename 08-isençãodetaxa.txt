@@ -1,0 +1,5 @@
+Como assistente social quero saber quem solicitou isenção de taxa para que possa analisar e asssim homologar as inscrições por isenção
+
+Regras:
+    O candidato deverá solicitar isenção por formulário próprio, informando o motivo e em qual processo que está participando está solicitando a isenção
+    O sistema deve armazenar se a solicitação foi aceita ou não e qual usuário membro da comissão fez o aceite

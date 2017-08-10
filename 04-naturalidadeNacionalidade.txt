@@ -1,14 +1,4 @@
-﻿Como gestor, quero saber a naturalidade e a nacionalidade da pessoa,
-
-
-para fins de estatísticas.
-
-
-
-
+Como gestor, quero saber a naturalidade e a nacionalidade da pessoa, para fins de estatísticas.
 
 naturalidade é a cidade onde a pessoa nasceu
-
-
-
 nacionalidade é o país onde a pessoa nasceu

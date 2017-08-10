@@ -1,61 +1,24 @@
-﻿Como gestor quero que o sistema possua um cadastro de pessoas
-
-para que elas possam se cadastrar com seus dados pessoais
-
-e endereço
+Como gestor quero que o sistema possua um cadastro de pessoas para que elas possam se cadastrar com seus dados pessoais e endereço
 
 Dados importantes:
- 
+    Nome completo
+    Data de Nascimento
+    R.G.
+    emissor do R.G.
+    CPF
+    Passaporte (se for estrangeiro)
+    Endereços - podendo ser comercial, residencial ou outro (rua, número, bairro, cidade, estado|sigla e nome, país|sigla e nome)
+    Telefones - podendo ser residencial, celular, comercial ou outro
+    Nome do Pai
+    Nome da Mãe
+    escolaridade (aqui a pessoa informará sua escolaridade, também deverá dizer se ela foi feito inteiramente em escola pública, inteiramente em escola particular ou em escola particular com bolsa integral)
+    usuario
+    senha
+    e-mail
+    data do cadastro
+    data da última atualização
+    ativo
 
 
-
-	Nome completo
-
-	Data de Nascimento
-
-
-	R.G.
-	
-	emissor do R.G.
-	
-	CPF
-  
-	
-	Passaporte (se for estrangeiro)
-
-    
-	Endereços - podendo ser comercial, residencial ou outro
-	(rua, número, bairro, cidade, estado|sigla e nome, país|sigla e nome)
- 
-
-	Telefones - podendo ser residencial, celular, comercial ou outro
- 
-
-	Nome do Pai
-
-
-    	Nome da Mãe
-
-	
-	escolaridade (aqui a pessoa informará sua escolaridade, também deverá dizer se ela foi feito
-	inteiramente em escola pública, inteiramente em escola particular ou em escola particular com bolsa integral)
- 
-	
-	usuario
-  
-	
-	senha
- 
-	
-	e-mail
-	
-	data do cadastro
- 
-	
-	data da última atualização
-	
-	ativo
-
-
-	Dados de teste: 
+Dados de teste: 
     João da Silva, 
