@@ -188,6 +188,31 @@ header nav ul li a.blog:hover {
 	margin-bottom: 35px;
 }
 
+.texto{
+	font-family: sans-serif;
+	position: absolute;
+	float:left;
+	margin-top:255px;
+	color:#069BBB;
+	left: 300px;
+	background-color: #ffffff00;
+}
+.texto2{
+	font-family: sans-serif;
+	position: absolute;
+	float:left;
+	margin-top:285px;
+	color:#dfdad6;
+	left: 300px;
+
+}
+.houding-text{
+	
+	display:block;
+	width:200;
+	background-color:#C63c63
+	
+}
 
 
 /*inicio nav2*/
@@ -364,11 +389,16 @@ footer p a.active {
 /*INICIO FOOTER*/
 	  
 .footer {
+	position: relative;
 	margin-top:20px;
 	text-align:center;
 	font-size:22px;
 	font-family:'iweb-light', Helvetica, sans-serif;
 	color:#076B8C;
+	float:left;
+	display: block;
+	border-right: solid #c7c7c7;
+    padding-right: 5px;
 	
 }
 
@@ -393,4 +423,20 @@ footer p a.active {
 	
 	background-color:#CCCCCC
   }
+.fim {
+	display: block;
+	float:inherit;
+    font-size: 15px;
+    font-weight: bold;
+	border-right: solid #c7c7c7;
+    padding-right: 5px;
+}
+fim p a.active{
+	text-decoration:none;
+	color: #069BBB;
+}
 
+/*float: left;
+	margin-top:-15px;
+	color:#000;
+	border-right: 2px solid #858585;*/
