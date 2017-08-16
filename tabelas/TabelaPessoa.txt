@@ -3,12 +3,138 @@
 
 -- criando FN3
 
--- criando tabela pessoa
+
+-- criando tabela país
 
 
-create table pessoa(
+create table country(
 	
-	cdPessoa auto_increment int ,
+	cdCountry int auto_increment NOT NULL,
+	nome_country varchar(200) NOT NULL,
+	siglaEstado varchar(2)NOT NULL,
+
+	primary key (cdCountry)
+
+);
+
+-- criando tabela estado
+
+
+create table estado(
+	
+	cdEstado int auto_increment NOT NULL,
+	nome_estado varchar(200) NOT NULL,
+	siglaEstado varchar(2)NOT NULL,
+
+	primary key (cdEstado)
+
+	foreign key (cd_country) references country(cdCountry)
+);
+
+
+-- criando a tabela cidade
+
+create table cidade(
+	
+	cdCidade int auto_increment NOT NULL,
+	nome_cidade varchar(200)NOT NULL,
+	cd_estado int,
+
+	primary key (cdCidade),
+
+	foreign key (cd_estado) references estado(cdEstado)
+);
+
+
+-- criando a tabela endereco
+
+create table endereco(
+
+	cdEndereco int auto_increment NOT NULL,
+	cep int NOT NULL,
+	rua varchar(200)NOT NULL,
+	numero int NOT NULL,
+	bairro varchar(100)NOT NULL,
+	cd_cidade int,
+
+	primary key (cdEndereco),
+
+	foreign key (cd_cidade) references cidade(cdCidade)
+	
+);
+
+
+-- criando a tabela estado civil
+
+
+create table estadoCivil(
+	cdEstadoCivil int NOT NULL,
+	descricao_ec varchar(20) NOT NULL,
+
+	primary key (cdEstadoCivil),
+);
+
+
+create table pessoas(
+	
+	cdPessoa auto_increment int NOT NULL,
+	nome varchar(200) NOT NULL,
+	data_nasc date NOT NULL,
+	sexo varchar(20) NOT NULL,
+	RG int NOT NULL,
+	CPF int unique NOT NULL,
+	passaporte varchar(200),
+	nome_pai varchar(200),
+	nome_mae varchar(200),
+	cdEstCivil int,	
+
+	foreign key (cdEstCivil) references estadoCivil(cd_estado_civil)
+);
+
+create table tipo_endereco(
+
+	descricao varchar(100) NOT NULL,
+	cd_pessoa int NOT NULL,
+	cd_endereco int NOT NULL,
+
+
+	primary key (cd_pessoa,cd_endereco),
+
+	foreign key (cd_pessoa) references pessoas(cdPessoa),
+	foreign key (cd_endereco) references endereco(cdEndereco)
+
+);
+
+
+-- criando a tabela telefone
+
+create table telefone(
+	
+	cdTelefone int auto_increment NOT NULL,
+	telefone int NOT NULL,
+
+	primary key (cdTelefone),
+	
+);
+
+
+create table tipo_telefone(
+
+	
+	descricao varchar(100) NOT NULL,
+	cd_pessoa int NOT NULL,
+	cd_telefone int NOT NULL,
+
+
+	primary key (cd_pessoa,cd_telefone),
+
+	foreign key (cd_pessoa) references pessoas(cdPessoa),
+	foreign key (cd_endereco) references endereco(cdEndereco)
+
+);
+
+
+cdPessoa auto_increment int ,
 	CPF int unique NOT NULL,
 	nome_Completo varchar(200),	
 	data_Nasc date NOT NULL,
@@ -22,4 +148,9 @@ create table pessoa(
 	primary key (cdPessoa),
 
 	foreign key (cd_endereco) references endereco(cdEndereco)
+);
+
+create table Emissor_RG(
+	cd_pessoa
+	emissor_rg ,
 );
