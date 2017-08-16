@@ -86,6 +86,7 @@ create table pessoas(
 	passaporte varchar(200),
 	nome_pai varchar(200),
 	nome_mae varchar(200),
+	ativo boolean,
 	cdEstCivil int,	
 
 	foreign key (cdEstCivil) references estadoCivil(cd_estado_civil)
@@ -117,6 +118,7 @@ create table telefone(
 	
 );
 
+-- criando a tabela tipo telefone
 
 create table tipo_telefone(
 
@@ -134,23 +136,43 @@ create table tipo_telefone(
 );
 
 
-cdPessoa auto_increment int ,
-	CPF int unique NOT NULL,
-	nome_Completo varchar(200),	
-	data_Nasc date NOT NULL,
-	RG int  NOT NULL,
-	emissor_RG varchar(200)
-	sexo varchar(200) NOT NULL,
-	passaporte varchar(200) NOT NULL,
-	salario real NOT NULL,
-	cd_endereco int NOT NULL,
-	
-	primary key (cdPessoa),
+-- criando a tabela escolaridade
 
-	foreign key (cd_endereco) references endereco(cdEndereco)
+create table escolaridade(
+	
+	cdEscolaridade int auto_increment NOT NULL,
+	descricao varchar(200) NOT NULL,
+
+	primary key (cdTelefone),
+	
 );
+
+-- criando a tabela tipo_escolaridade (publica,bolsa,particular)
+
+
+
+create table tipo_escolaridade(
+
+	
+	descricao varchar(100) NOT NULL,
+	cd_pessoa int NOT NULL,
+	cd_escolaridade int NOT NULL,
+
+
+	primary key (cd_pessoa,cd_escolaridade),
+
+	foreign key (cd_pessoa) references pessoas(cdPessoa),
+	foreign key (cd_endereco) references escolaridade(cdEndereco)
+
+);
+
 
 create table Emissor_RG(
-	cd_pessoa
-	emissor_rg ,
+
+
+	cd_pessoa int NOT NULL,
+	emissor_rg varchar(30),
+
+	primary key (cd_pessoa),
 );
+
