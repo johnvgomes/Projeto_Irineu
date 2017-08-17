@@ -21,3 +21,36 @@
 2017-08-16 07:35:52 3184 [Note] Event Scheduler: Loaded 0 events
 2017-08-16 07:35:52 3184 [Note] C:\Users\willi\Desktop\trabalhos\bd2\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
 Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-08-17 08:06:31 1724 [Note] Plugin 'FEDERATED' is disabled.
+2017-08-17 08:06:31 1724 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-08-17 08:06:31 1724 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-08-17 08:06:31 1724 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-08-17 08:06:31 1724 [Note] InnoDB: Not using CPU crc32 instructions
+2017-08-17 08:06:31 1724 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-08-17 08:06:31 1724 [Note] InnoDB: Completed initialization of buffer pool
+2017-08-17 08:06:31 1724 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-08-17 08:06:31 1724 [Note] InnoDB: The log sequence numbers 6214294 and 6214294 in ibdata files do not match the log sequence number 6214304 in the ib_logfiles!
+2017-08-17 08:06:31 1724 [Note] InnoDB: Database was not shutdown normally!
+2017-08-17 08:06:31 1724 [Note] InnoDB: Starting crash recovery.
+2017-08-17 08:06:31 1724 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-08-17 08:06:32 1724 [Note] InnoDB: Restoring possible half-written data pages 
+2017-08-17 08:06:32 1724 [Note] InnoDB: from the doublewrite buffer...
+InnoDB: Last MySQL binlog file position 0 18915, file name mysql-bin.000379
+2017-08-17 08:06:33 1724 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-08-17 08:06:33 1724 [Note] InnoDB: Waiting for purge to start
+2017-08-17 08:06:33 1724 [Note] InnoDB: 5.6.11 started; log sequence number 6214304
+2017-08-17 08:06:33 1724 [Note] Recovering after a crash using mysql-bin
+2017-08-17 08:06:33 1724 [Note] Starting crash recovery...
+2017-08-17 08:06:33 1724 [Note] Crash recovery finished.
+2017-08-17 08:06:35 1724 [Note] Server hostname (bind-address): '*'; port: 3306
+2017-08-17 08:06:35 1724 [Note] IPv6 is available.
+2017-08-17 08:06:35 1724 [Note]   - '::' resolves to '::';
+2017-08-17 08:06:35 1724 [Note] Server socket created on IP: '::'.
+2017-08-17 08:06:36 1724 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-08-17 08:06:36 1724 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-08-17 08:06:36 1724 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-08-17 08:06:36 1724 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-08-17 08:06:36 1724 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-08-17 08:06:36 1724 [Note] Event Scheduler: Loaded 0 events
+2017-08-17 08:06:36 1724 [Note] C:\Users\willi\Desktop\trabalhos\bd2\Projeto_Irineu\BD 2\UwAmp\bin\database\mysql-5.6.11\bin\mysqld.exe: ready for connections.
+Version: '5.6.11-log'  socket: ''  port: 3306  MySQL Community Server (GPL)

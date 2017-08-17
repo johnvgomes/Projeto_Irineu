@@ -11,13 +11,13 @@ create table country(
 	
 	cdCountry int auto_increment NOT NULL,
 	nome_country varchar(200) NOT NULL,
-	siglaEstado varchar(2)NOT NULL,
+	siglaCountry varchar(2)NOT NULL,
 
 	primary key (cdCountry)
 
 );
 
--- criando tabela estado
+-- criando tabela estado//////////
 
 
 create table estado(
@@ -25,8 +25,9 @@ create table estado(
 	cdEstado int auto_increment NOT NULL,
 	nome_estado varchar(200) NOT NULL,
 	siglaEstado varchar(2)NOT NULL,
+	cd_country int,
 
-	primary key (cdEstado)
+	primary key (cdEstado),
 
 	foreign key (cd_country) references country(cdCountry)
 );
@@ -71,13 +72,13 @@ create table estadoCivil(
 	cdEstadoCivil int NOT NULL,
 	descricao_ec varchar(20) NOT NULL,
 
-	primary key (cdEstadoCivil),
+	primary key (cdEstadoCivil)
 );
 
 
 create table pessoas(
 	
-	cdPessoa auto_increment int NOT NULL,
+	cdPessoa int auto_increment NOT NULL,
 	nome varchar(200) NOT NULL,
 	data_nasc date NOT NULL,
 	sexo varchar(20) NOT NULL,
@@ -88,9 +89,14 @@ create table pessoas(
 	nome_mae varchar(200),
 	ativo boolean,
 	cdEstCivil int,	
+    
+    	primary key (cdPessoa),
+                 
 
 	foreign key (cdEstCivil) references estadoCivil(cd_estado_civil)
 );
+
+
 
 create table tipo_endereco(
 
@@ -114,7 +120,7 @@ create table telefone(
 	cdTelefone int auto_increment NOT NULL,
 	telefone int NOT NULL,
 
-	primary key (cdTelefone),
+	primary key (cdTelefone)
 	
 );
 
@@ -131,9 +137,10 @@ create table tipo_telefone(
 	primary key (cd_pessoa,cd_telefone),
 
 	foreign key (cd_pessoa) references pessoas(cdPessoa),
-	foreign key (cd_endereco) references endereco(cdEndereco)
+	foreign key (cd_telefone) references endereco(cdTelefone)
 
 );
+
 
 
 -- criando a tabela escolaridade
@@ -143,7 +150,7 @@ create table escolaridade(
 	cdEscolaridade int auto_increment NOT NULL,
 	descricao varchar(200) NOT NULL,
 
-	primary key (cdTelefone),
+	primary key (cdEscolaridade)
 	
 );
 
@@ -162,7 +169,7 @@ create table tipo_escolaridade(
 	primary key (cd_pessoa,cd_escolaridade),
 
 	foreign key (cd_pessoa) references pessoas(cdPessoa),
-	foreign key (cd_endereco) references escolaridade(cdEndereco)
+	foreign key (cd_escolaridade) references escolaridade(cdEscolaridade)
 
 );
 
@@ -173,6 +180,6 @@ create table Emissor_RG(
 	cd_pessoa int NOT NULL,
 	emissor_rg varchar(30),
 
-	primary key (cd_pessoa),
+	primary key (cd_pessoa)
 );
 
