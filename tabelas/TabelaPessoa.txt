@@ -189,13 +189,12 @@ create table emissor_RG(
 create table usuario(
 
 	cd_pessoa int NOT NULL,
-	nome varchar (30) NOT NULL,
-	usuario varchar (50) NOT NULL,
-	senha varchar(30) NOT NULL,
-	email varchar (70) NOT NULL,
-	tipo varchar (30) NOT NULL,
+	usuario varchar (100) NOT NULL,
+	senha varchar(50) NOT NULL,
+	email varchar (100) NOT NULL,
+	tipo varchar (50) NOT NULL,
 	data_cad date NOT NULL,
-    data_last_update  date NOT NULL,
+   	data_last_update  date NOT NULL,
 	
 	primary key (cd_pessoa),
 

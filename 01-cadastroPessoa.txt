@@ -1,24 +1,23 @@
 Como gestor quero que o sistema possua um cadastro de pessoas para que elas possam se cadastrar com seus dados pessoais e endereço
 
 Dados importantes:
-    Nome completo
-    Data de Nascimento
-    R.G.
-    emissor do R.G.
-    CPF
-    Passaporte (se for estrangeiro)
-    Endereços - podendo ser comercial, residencial ou outro (rua, número, bairro, cidade, estado|sigla e nome, país|sigla e nome)
-    Telefones - podendo ser residencial, celular, comercial ou outro
-    Nome do Pai
-    Nome da Mãe
-    escolaridade (aqui a pessoa informará sua escolaridade, também deverá dizer se ela foi feito inteiramente em escola pública, inteiramente em escola particular ou em escola particular com bolsa integral)
-    usuario
-    senha
-    e-mail
+    Nome completo -> João da Silva
+    Data de Nascimento -> 13/12/1996
+    R.G. 34.235.358-75
+    emissor do R.G. -> SSPSSCSSW
+    CPF -> 324.423.242-27
+    Passaporte (se for estrangeiro) -> E3FW5FG44GR9
+    Endereços - podendo ser comercial, residencial ou outro (rua, número, bairro, cidade, estado|sigla e nome, país|sigla e nome) -> COMERCIAL(rua sao joao, 004, Sao Joaquim, Papito, ACRE-AC, Brasil-BR)
+    Telefones - podendo ser residencial, celular, comercial ou outro -> COMERCIAL ((435) 34633-35353, (24) 2342-5232)
+    Nome do Pai ->Zé da nega
+    Nome da Mãe ->Tia do Zé
+    escolaridade (aqui a pessoa informará sua escolaridade, também deverá dizer se ela foi feito inteiramente em escola pública, inteiramente em escola particular ou em escola particular com bolsa integral) -> aqui vai de cada um !!!
+    usuario -> Joao_silvadanega
+    senha -> joao***123
+    e-mail -> Joao_comercialsites222@hotmail.com
     data do cadastro
     data da última atualização
     ativo
-
-
-Dados de teste: 
-    João da Silva, 
+	
+OBS: Oque está depois da "->" é pra ser usado como exemplo no banco de dados.
+	 
