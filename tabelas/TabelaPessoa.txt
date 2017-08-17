@@ -174,12 +174,35 @@ create table tipo_escolaridade(
 );
 
 
-create table Emissor_RG(
+create table emissor_RG(
 
 
 	cd_pessoa int NOT NULL,
 	emissor_rg varchar(30),
 
-	primary key (cd_pessoa)
+	primary key (cd_pessoa),
+
+	
+	foreign key (cd_pessoa) references pessoas(cdPessoa)
 );
 
+create table usuario(
+
+	cd_pessoa int NOT NULL,
+	nome varchar (30) NOT NULL,
+	usuario varchar (50) NOT NULL,
+	senha varchar(30) NOT NULL,
+	email varchar (70) NOT NULL,
+	tipo varchar (30) NOT NULL,
+	data_cad date NOT NULL,
+    data_last_update  date NOT NULL,
+	
+	primary key (cd_pessoa),
+
+	
+	foreign key (cd_pessoa) references pessoas(cdPessoa)
+
+	
+	);
+	
+    
