@@ -1,9 +1,0 @@
-<?php
-$server="186.202.13.7";
-$db="etecia";
-$user="etecia";
-$pass="a1911d4N1";
-$version="0.8";
-$pgport=5432;
-$pchartfolder="./class/pchart2";
-?>

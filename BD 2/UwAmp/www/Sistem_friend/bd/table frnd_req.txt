@@ -1,5 +1,0 @@
-create table frnd_req(
-id int auto_increment primary key,
-de int,
-para int
-);
