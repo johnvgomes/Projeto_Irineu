@@ -1,5 +1,0 @@
-create table frnds(
-id int auto_increment primary key,
-user_one int,
-user_two int
-);
